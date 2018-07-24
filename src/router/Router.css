@@ -1,0 +1,18 @@
+nav {
+   display: flex;
+   background-color: #333;
+   align-items:baseline;
+}
+
+nav a {
+  flex:1;
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-weight:200;
+}
+
+nav a:hover {
+    background-color: #111;
+}
