@@ -1,10 +1,13 @@
 import React from 'react';
-import classes from './Publications.css'
+import classes from './Publications.css';
+
 function importAll(r) {
   return r.keys().map(r);
 }
+
 const images = importAll(require.context('../../../public/publications', false, /\.(pdf)$/));
-console.log(images, images[0])
+//console.log(images, images[0]);
+
 const Publications = () => (
 
   <div className={classes.a1} >

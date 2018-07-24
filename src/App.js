@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import { BrowserRouter } from 'react-router-dom'
+import { BrowserRouter } from 'react-router-dom';
 import './App.css';
-import Router from './router/Router'
+import Router from './router/Router';
 
 class App extends Component {
   render() {

@@ -1,12 +1,15 @@
 import React from 'react'
-import classes from './Country.css'
+import classes from './Country.css';
+
 function importAll(r) {
     return r.keys().map(r);
 }
+
 const armenia = importAll(require.context('../../../public/recommendations/armenia', false, /\.(pdf)$/));
 const azerbaijan = importAll(require.context('../../../public/recommendations/azerbaijan', false, /\.(pdf)$/));
 // to add new country first create a new file in public/recomandation folder. for example turkey then import as is done above.For
 // example  const turkey = importAll(require.context('../../../public/recommendations/turkey', false, /\.(pdf)$/));
+
 const Country = (props) => {
     switch (props.match.params.country) {
         case 'armenia':
