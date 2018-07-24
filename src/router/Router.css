@@ -1,18 +1,54 @@
 nav {
-   display: flex;
-   background-color: #333;
-   align-items:baseline;
+  background: red;
+  align-items:baseline;
+
+  list-style: none;
+  margin: auto;
+
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-flex-flow: row wrap;
+  justify-content: flex-start;
 }
 
 nav a {
-  flex:1;
   display: block;
   color: white;
-  text-align: center;
+  padding: 1em;
   text-decoration: none;
-  font-weight:200;
 }
 
 nav a:hover {
-    background-color: #111;
+  background: black;
+}
+
+@media all and (max-width: 800px) {
+  nav {
+    justify-content: space-around;
+  }
+}
+
+@media all and (max-width: 600px) {
+  nav {
+    -webkit-flex-flow: column wrap;
+    flex-flow: column wrap;
+    padding: 0;
+  }
+  
+  nav a {
+    text-align: center;
+    margin: auto;
+    width: 95%;
+    padding: 10px;
+    border-top: 1px solid rgba(255,255,255,0.3); 
+    border-bottom: 1px solid rgba(0,0,0,0.1); 
+  }
+
+  nav li:last-of-type a {
+    border-bottom: none;
+  }
 }

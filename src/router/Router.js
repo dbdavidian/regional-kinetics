@@ -8,7 +8,7 @@ import Publications from '../components/Publications/Publications';
 import Recommendations from '../components/Recommendations/Recommendations';
 import Country from '../components/Country/Country';
 
-import classes from './Router.css';
+import './Router.css';
 
 class Router extends Component {
   render() {
@@ -22,13 +22,15 @@ class Router extends Component {
             <NavLink to="/publications">
               Significant Publications
             </NavLink>
-            <Recommendations className={classes.a1} />
             <NavLink to="/contact">
               Contact
             </NavLink>
             <NavLink to="/about">
               About
             </NavLink>
+            <a>
+              <Recommendations />
+            </a>
           </nav>
         </header>
         <Switch>
