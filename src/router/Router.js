@@ -5,7 +5,7 @@ import Home from '../components/Home/Home'
 import About from '../components/About/About'
 import Contact from '../components/Contact/Contact'
 import Publications from '../components/Publications/Publications'
-import Recommandations from '../components/Recommandations/Recommandations'
+import Recommendations from '../components/Recommendations/Recommendations'
 import Country from '../components/Country/Country'
 
 import classes from './Router.css'
@@ -16,10 +16,10 @@ class Router extends Component {
         <header>
           <nav>
             <NavLink to="/home"> Home</NavLink>
-            <NavLink to="/about"> About</NavLink>
+            <NavLink to="/publications"> Significant Publications</NavLink>
+            <Recommendations className={classes.a1} />
             <NavLink to="/contact"> Contact</NavLink>
-            <NavLink to="/publications"> Publications</NavLink>
-            <Recommandations className={classes.a1} />
+            <NavLink to="/about"> About</NavLink>
           </nav>
         </header>
         <Switch>
@@ -28,7 +28,7 @@ class Router extends Component {
           <Route path="/contact" component={Contact} />
           <Route path="/about" component={About} />
           <Route path="/publications" component={Publications} />
-          <Route path="/recommandations/:country" component={Country} />
+          <Route path="/recommendations/:country" component={Country} />
         </Switch>
       </div>
     );

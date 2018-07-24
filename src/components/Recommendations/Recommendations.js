@@ -2,8 +2,8 @@ import React from 'react';
 import Button from '@material-ui/core/Button';
 import Menu from '@material-ui/core/Menu';
 import { NavLink } from 'react-router-dom'
-import classes from './Recommandations.css'
-class Recommandations extends React.Component {
+import classes from './Recommendations.css'
+class Recommendations extends React.Component {
   state = {
     anchorEl: null,
   };
@@ -33,7 +33,7 @@ class Recommandations extends React.Component {
           aria-haspopup="true"
           onClick={this.handleClick}
         >
-          Recommandations
+          Recommendations
         </Button>
         <Menu
           id="simple-menu"
@@ -42,10 +42,10 @@ class Recommandations extends React.Component {
           onClose={this.handleClose}
         >
           <div className={classes.a1}>
-            <NavLink onClick={this.handleClose} to="/recommandations/armenia" style={{ padding: '14px 25px' }}>Armenia</NavLink>
-            <NavLink onClick={this.handleClose} to="/recommandations/azerbaijan" style={{ padding: '14px 25px' }}>Azerbaijan</NavLink>
+            <NavLink onClick={this.handleClose} to="/recommendations/armenia" style={{ padding: '14px 25px' }}>Armenia</NavLink>
+            <NavLink onClick={this.handleClose} to="/recommendations/azerbaijan" style={{ padding: '14px 25px' }}>Azerbaijan</NavLink>
             {/* in order to add new country in dropdown add For example Turkey:
-        <NavLink  onClick={this.handleClose}   to="/recommandations/turkey" style = {{padding:'14px 25px'}}>Turkey</NavLink>
+        <NavLink  onClick={this.handleClose}   to="/recommendations/turkey" style = {{padding:'14px 25px'}}>Turkey</NavLink>
         */}
           </div>
         </Menu>
@@ -54,4 +54,4 @@ class Recommandations extends React.Component {
   }
 }
 
-export default Recommandations;
+export default Recommendations;
