@@ -16,7 +16,7 @@ const Country = (props) => {
       return (
         <div className={classes.a1}>
           <a href={`/recommendations/armenia${armenia[0]}`}>
-Map of Armenia
+            Map of Armenia
           </a>
         </div>
       );
@@ -24,7 +24,7 @@ Map of Armenia
       return (
         <div className={classes.a1}>
           <a href={`/recommendations/azerbaijan${azerbaijan[0]}`}>
-Map of Azerbaijan
+            Map of Azerbaijan
           </a>
         </div>
       );
@@ -37,9 +37,7 @@ Map of Azerbaijan
       // );
 
     default: return (
-      <p>
-No such Country
-      </p>
+      <p>No such Country</p>
     );
   }
 };

@@ -17,21 +17,17 @@ class Router extends Component {
         <header>
           <nav>
             <NavLink to="/home">
-              {' '}
-Home
+              Home
             </NavLink>
             <NavLink to="/publications">
-              {' '}
-Significant Publications
+              Significant Publications
             </NavLink>
             <Recommendations className={classes.a1} />
             <NavLink to="/contact">
-              {' '}
-Contact
+              Contact
             </NavLink>
             <NavLink to="/about">
-              {' '}
-About
+              About
             </NavLink>
           </nav>
         </header>

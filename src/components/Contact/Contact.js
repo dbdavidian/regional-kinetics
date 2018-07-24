@@ -2,9 +2,7 @@ import React from 'react';
 
 const Contact = () => (
   <div>
-    <p>
-You are in Contact page
-    </p>
+    <p>You are in Contact page</p>
   </div>
 );
 
