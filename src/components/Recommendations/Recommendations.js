@@ -1,5 +1,5 @@
 import React from 'react';
-import Button from '@material-ui/core/Button';
+//import Button from '@material-ui/core/Button';
 import Menu from '@material-ui/core/Menu';
 import { NavLink } from 'react-router-dom';
 import classes from './Recommendations.css';
@@ -21,21 +21,14 @@ class Recommendations extends React.Component {
     const { anchorEl } = this.state;
 
     return (
-      <div style={{ flex: '1' }}>
-        <Button
-          style={{
-            color: 'white',
-            textAlign: 'center',
-            textTransform: 'none',
-            fontSize: '1em',
-            fontWeight: '200',
-          }}
+      <div>
+        <div
           aria-owns={anchorEl ? 'simple-menu' : null}
           aria-haspopup="true"
           onClick={this.handleClick}
         >
           Recommendations
-        </Button>
+        </div>
         <Menu
           id="simple-menu"
           anchorEl={anchorEl}

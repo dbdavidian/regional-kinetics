@@ -1,12 +1,37 @@
-.a1 {
+.flexcontainer {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 50vh;
-}
+    
+    -webkit-flex-flow: row wrap;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .flexitem {
+    background: darkgray;
+    padding: 5px;
+    width: 200px;
+    height: 150px;
+    margin-top: 20px;
+    
+    line-height: 150px;
+    color: white;
+    font-weight: bold;
+    font-size: 1em;
+    text-align: center;
+  }
 
-.a1 a {
-    text-decoration: none;
-    margin-top: 5%;
-    color: chocolate;
-}
+  .flexitem a {
+      flex: 1;
+      display: block;
+      text-decoration: none;
+      margin: auto;
+      color: pink;
+  }

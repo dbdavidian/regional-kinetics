@@ -1,9 +1,7 @@
 import React from 'react';
 import classes from './Country.css';
 
-function importAll(r) {
-  return r.keys().map(r);
-}
+const importAll = (r) => r.keys().map(r);
 
 const armenia = importAll(require.context('../../../public/recommendations/armenia', false, /\.(pdf)$/));
 const azerbaijan = importAll(require.context('../../../public/recommendations/azerbaijan', false, /\.(pdf)$/));
@@ -14,27 +12,38 @@ const Country = (props) => {
   switch (props.match.params.country) {
     case 'armenia':
       return (
-        <div className={classes.a1}>
-          <a href={`/recommendations/armenia${armenia[0]}`}>
-            Map of Armenia
-          </a>
-        </div>
+        <ul className={classes.flexcontainer}>
+          <li className={classes.flexitem}>
+            <a href={`/recommendations/armenia${armenia[0]}`}>
+              Map of Armenia
+            </a>
+          </li>
+        </ul>
       );
     case 'azerbaijan':
       return (
-        <div className={classes.a1}>
-          <a href={`/recommendations/azerbaijan${azerbaijan[0]}`}>
-            Map of Azerbaijan
-          </a>
-        </div>
+        <ul className={classes.flexcontainer}>
+          <li className={classes.flexitem}>
+            <a href={`/recommendations/azerbaijan${azerbaijan[0]}`}>
+              Map of Azerbaijan
+            </a>
+          </li>
+        </ul>
       );
 
-      // case 'turkey':
-      // return (<div className = {classes.a1}>
-      //     <a  href = {`/recommendations/turkey${turkey[0]}`}>Map of Turkey</a>
-      //     <a  href = {`/recommendations/turkey${turkey[1]}`}>Map of Turkey</a>
-      // </div>
-      // );
+      /* case 'turkey':
+      return (
+        <ul className={classes.flexcontainer}>
+          <li className={classes.flexitem}>
+            <a href={`/recommendations/turkey${turkey[0]}`}>
+              Map of Turkey1
+            </a>
+            <a href={`/recommendations/turkey${turkey[1]}`}>
+              Map of Turkey2
+            </a>
+          </li>
+        </ul>
+      ); */
 
     default: return (
       <p>No such Country</p>
