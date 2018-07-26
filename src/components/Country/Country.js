@@ -1,6 +1,12 @@
 import React from 'react';
 import classes from './Country.css';
 
+import Card from '@material-ui/core/Card';
+import CardContent from '@material-ui/core/CardContent';
+import Typography from '@material-ui/core/Typography';
+import CardActions from '@material-ui/core/CardActions';
+import Button from '@material-ui/core/Button';
+
 const importAll = (r) => r.keys().map(r);
 
 const armenia = importAll(require.context('../../../public/recommendations/armenia', false, /\.(pdf)$/));
@@ -13,37 +19,69 @@ const Country = (props) => {
     case 'armenia':
       return (
         <ul className={classes.flexcontainer}>
-          <li className={classes.flexitem}>
-            <a href={`/recommendations/armenia${armenia[0]}`}>
-              Map of Armenia
-            </a>
-          </li>
+          <Card className={classes.flexitem}>
+            <CardContent>
+              <Typography gutterBottom variant="headline" component="h2">
+                Map of Armenia
+          </Typography>
+              <Typography component="p">
+                Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
+                across all continents except Antarctica
+          </Typography>
+            </CardContent>
+            <CardActions>
+              <Button size="small" color="primary">
+                Share
+          </Button>
+              <Button size="small" color="primary">
+                <a href={`/recommendations/armenia${armenia[0]}`}>
+                  Learn More
+              </a>
+              </Button>
+            </CardActions>
+          </Card>
         </ul>
       );
     case 'azerbaijan':
       return (
         <ul className={classes.flexcontainer}>
-          <li className={classes.flexitem}>
-            <a href={`/recommendations/azerbaijan${azerbaijan[0]}`}>
-              Map of Azerbaijan
+          <Card className={classes.flexitem}>
+            <CardContent>
+              <Typography gutterBottom variant="headline" component="h2">
+                Map of Azerbaijan
+        </Typography>
+              <Typography component="p">
+                Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
+                across all continents except Antarctica
+        </Typography>
+            </CardContent>
+            <CardActions>
+              <Button size="small" color="primary">
+                Share
+        </Button>
+              <Button size="small" color="primary">
+                <a href={`/recommendations/azerbaijan${azerbaijan[0]}`}>
+                  Learn More
             </a>
-          </li>
+              </Button>
+            </CardActions>
+          </Card>
         </ul>
       );
 
-      /* case 'turkey':
-      return (
-        <ul className={classes.flexcontainer}>
-          <li className={classes.flexitem}>
-            <a href={`/recommendations/turkey${turkey[0]}`}>
-              Map of Turkey1
-            </a>
-            <a href={`/recommendations/turkey${turkey[1]}`}>
-              Map of Turkey2
-            </a>
-          </li>
-        </ul>
-      ); */
+    /* case 'turkey':
+    return (
+      <ul className={classes.flexcontainer}>
+        <li className={classes.flexitem}>
+          <a href={`/recommendations/turkey${turkey[0]}`}>
+            Map of Turkey1
+          </a>
+          <a href={`/recommendations/turkey${turkey[1]}`}>
+            Map of Turkey2
+          </a>
+        </li>
+      </ul>
+    ); */
 
     default: return (
       <p>No such Country</p>
