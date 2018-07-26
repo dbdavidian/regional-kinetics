@@ -15,23 +15,13 @@
   }
   
   .flexitem {
-    background: darkgray;
     padding: 5px;
-
     max-width: 500px;
     margin-top: 20px;
-    
-    line-height: 150px;
-    color: white;
-    font-weight: bold;
-    font-size: 1em;
     text-align: center;
   }
 
   .flexitem a {
-      flex: 1;
-      display: block;
       text-decoration: none;
-      margin: auto;
       color: red;
   }
