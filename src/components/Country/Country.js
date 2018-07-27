@@ -1,13 +1,13 @@
 import React from 'react';
-import classes from './Country.css';
 
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import Typography from '@material-ui/core/Typography';
 import CardActions from '@material-ui/core/CardActions';
 import Button from '@material-ui/core/Button';
+import classes from './Country.css';
 
-const importAll = (r) => r.keys().map(r);
+const importAll = r => r.keys().map(r);
 
 const armenia = importAll(require.context('../../../public/recommendations/armenia', false, /\.(pdf)$/));
 const azerbaijan = importAll(require.context('../../../public/recommendations/azerbaijan', false, /\.(pdf)$/));
@@ -23,20 +23,20 @@ const Country = (props) => {
             <CardContent>
               <Typography gutterBottom variant="headline" component="h2">
                 Map of Armenia
-          </Typography>
+              </Typography>
               <Typography component="p">
                 Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
                 across all continents except Antarctica
-          </Typography>
+              </Typography>
             </CardContent>
             <CardActions>
               <Button size="small" color="primary">
                 Share
-          </Button>
+              </Button>
               <Button size="small" color="primary">
                 <a href={`/recommendations/armenia${armenia[0]}`}>
                   Learn More
-              </a>
+                </a>
               </Button>
             </CardActions>
           </Card>
@@ -49,20 +49,20 @@ const Country = (props) => {
             <CardContent>
               <Typography gutterBottom variant="headline" component="h2">
                 Map of Azerbaijan
-        </Typography>
+              </Typography>
               <Typography component="p">
                 Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
                 across all continents except Antarctica
-        </Typography>
+              </Typography>
             </CardContent>
             <CardActions>
               <Button size="small" color="primary">
                 Share
-        </Button>
+              </Button>
               <Button size="small" color="primary">
                 <a href={`/recommendations/azerbaijan${azerbaijan[0]}`}>
                   Learn More
-            </a>
+                </a>
               </Button>
             </CardActions>
           </Card>

@@ -1,0 +1,5 @@
+/build
+/scripts
+/config
+/src/registerServiceWorker.js
+/src/components/Recommendations/Recommendations.js

@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Route, NavLink, Switch } from 'react-router-dom';
 
 import Home from '../components/Home/Home';
@@ -10,40 +10,38 @@ import Country from '../components/Country/Country';
 
 import './Router.css';
 
-class Router extends Component {
-  render() {
-    return (
-      <div>
-        <header>
-          <nav>
-            <NavLink to="/home">
+function Router() {
+  return (
+    <div>
+      <header>
+        <nav>
+          <NavLink to="/home">
               Home
-            </NavLink>
-            <NavLink to="/publications">
+          </NavLink>
+          <NavLink to="/publications">
               Significant Publications
-            </NavLink>
-            <NavLink to="/contact">
+          </NavLink>
+          <NavLink to="/contact">
               Contact
-            </NavLink>
-            <NavLink to="/about">
+          </NavLink>
+          <NavLink to="/about">
               About
-            </NavLink>
-            <a>
-              <Recommendations />
-            </a>
-          </nav>
-        </header>
-        <Switch>
-          <Route path="/" exact component={Home} />
-          <Route path="/home" component={Home} />
-          <Route path="/contact" component={Contact} />
-          <Route path="/about" component={About} />
-          <Route path="/publications" component={Publications} />
-          <Route path="/recommendations/:country" component={Country} />
-        </Switch>
-      </div>
-    );
-  }
+          </NavLink>
+          <a>
+            <Recommendations />
+          </a>
+        </nav>
+      </header>
+      <Switch>
+        <Route path="/" exact component={Home} />
+        <Route path="/home" component={Home} />
+        <Route path="/contact" component={Contact} />
+        <Route path="/about" component={About} />
+        <Route path="/publications" component={Publications} />
+        <Route path="/recommendations/:country" component={Country} />
+      </Switch>
+    </div>
+  );
 }
 
 export default Router;
