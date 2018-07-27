@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 1px;
+}
+
+.content {
+    max-width: 1000px;
+}
+
+.content h1 {
+    text-align: center;
+}
+
+.content .image {
+    justify-content: center;
+	display: flex;
+}
+.paragraph {
+    /* // https://stackoverflow.com/questions/4413015/browser-compatible-word-wrap-and-whitespace-pre */
+		white-space: -moz-pre-wrap; /* Firefox */
+		white-space: -pre-wrap; /* ancient Opera */
+		white-space: -o-pre-wrap; /* newer Opera */
+		white-space: pre-wrap; /* Chrome; W3C standard */
+		word-wrap: break-word; /* IE */
+}

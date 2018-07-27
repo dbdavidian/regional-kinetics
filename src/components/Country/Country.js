@@ -16,58 +16,58 @@ const azerbaijan = importAll(require.context('../../../public/recommendations/az
 
 const Country = (props) => {
   switch (props.match.params.country) {
-    case 'armenia':
-      return (
-        <ul className={classes.flexcontainer}>
-          <Card className={classes.flexitem}>
-            <CardContent>
-              <Typography gutterBottom variant="headline" component="h2">
+  case 'armenia':
+    return (
+      <ul className={classes.flexcontainer}>
+        <Card className={classes.flexitem}>
+          <CardContent>
+            <Typography gutterBottom variant="headline" component="h2">
                 Map of Armenia
-              </Typography>
-              <Typography component="p">
+            </Typography>
+            <Typography component="p">
                 Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
                 across all continents except Antarctica
-              </Typography>
-            </CardContent>
-            <CardActions>
-              <Button size="small" color="primary">
+            </Typography>
+          </CardContent>
+          <CardActions>
+            <Button size="small" color="primary">
                 Share
-              </Button>
-              <Button size="small" color="primary">
-                <a href={`/recommendations/armenia${armenia[0]}`}>
+            </Button>
+            <Button size="small" color="primary">
+              <a href={`/recommendations/armenia${armenia[0]}`}>
                   Learn More
-                </a>
-              </Button>
-            </CardActions>
-          </Card>
-        </ul>
-      );
-    case 'azerbaijan':
-      return (
-        <ul className={classes.flexcontainer}>
-          <Card className={classes.flexitem}>
-            <CardContent>
-              <Typography gutterBottom variant="headline" component="h2">
+              </a>
+            </Button>
+          </CardActions>
+        </Card>
+      </ul>
+    );
+  case 'azerbaijan':
+    return (
+      <ul className={classes.flexcontainer}>
+        <Card className={classes.flexitem}>
+          <CardContent>
+            <Typography gutterBottom variant="headline" component="h2">
                 Map of Azerbaijan
-              </Typography>
-              <Typography component="p">
+            </Typography>
+            <Typography component="p">
                 Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
                 across all continents except Antarctica
-              </Typography>
-            </CardContent>
-            <CardActions>
-              <Button size="small" color="primary">
+            </Typography>
+          </CardContent>
+          <CardActions>
+            <Button size="small" color="primary">
                 Share
-              </Button>
-              <Button size="small" color="primary">
-                <a href={`/recommendations/azerbaijan${azerbaijan[0]}`}>
+            </Button>
+            <Button size="small" color="primary">
+              <a href={`/recommendations/azerbaijan${azerbaijan[0]}`}>
                   Learn More
-                </a>
-              </Button>
-            </CardActions>
-          </Card>
-        </ul>
-      );
+              </a>
+            </Button>
+          </CardActions>
+        </Card>
+      </ul>
+    );
 
     /* case 'turkey':
     return (
@@ -83,9 +83,9 @@ const Country = (props) => {
       </ul>
     ); */
 
-    default: return (
-      <p>No such Country</p>
-    );
+  default: return (
+    <p>No such Country</p>
+  );
   }
 };
 

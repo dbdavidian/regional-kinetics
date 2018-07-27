@@ -1,8 +1,12 @@
 import React from 'react';
 
+import classes from './Contact.css';
+
 const Contact = () => (
-  <div>
-    <p>You are in Contact page</p>
+  <div className={classes.container}>
+    <h1>Contact</h1>
+    <p>Feel free to contact me by email: info@regionalkinetics.com</p>
+    <a href="mailto:info@regionalkinetics.com" target="_top">Send Mail</a>
   </div>
 );
 
