@@ -33,7 +33,7 @@ const Publications = () => (
     <Card className={classes.flexitem}>
       <CardContent>
         <Typography gutterBottom variant="headline" component="h2">
-          Armenia Migration
+          Oligarchies and Strategic Danger to Small State Security
         </Typography>
         <Typography component="p">
           Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
@@ -55,7 +55,7 @@ const Publications = () => (
     <Card className={classes.flexitem}>
       <CardContent>
         <Typography gutterBottom variant="headline" component="h2">
-          Azerbaijan Map
+          Returns on Diplomatic Investment Zionist Policies and the Armenians
         </Typography>
         <Typography component="p">
           Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
@@ -77,7 +77,7 @@ const Publications = () => (
     <Card className={classes.flexitem}>
       <CardContent>
         <Typography gutterBottom variant="headline" component="h2">
-          Sample PDF
+          The Challenge of the Indigenous Arms Industry
         </Typography>
         <Typography component="p">
           Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
@@ -90,6 +90,53 @@ const Publications = () => (
         </Button>
         <Button size="small" color="primary">
           <a href={`/publications${images[2]}`}>
+            Learn More
+          </a>
+        </Button>
+      </CardActions>
+    </Card>
+
+    <Card className={classes.flexitem}>
+      <CardContent>
+        <Typography gutterBottom variant="headline" component="h2">
+          The Programmable Diplomatic Kill Switch
+        </Typography>
+        <Typography component="p">
+          Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
+          across all continents except Antarctica
+          Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
+          across all continents except Antarctica
+          Lizards are a widespread group of squamate reptiles, with over 6,000 species
+        </Typography>
+      </CardContent>
+      <CardActions>
+        <Button size="small" color="primary">
+          Share
+        </Button>
+        <Button size="small" color="primary">
+          <a href={`/publications${images[3]}`}>
+            Learn More
+          </a>
+        </Button>
+      </CardActions>
+    </Card>
+
+    <Card className={classes.flexitem}>
+      <CardContent>
+        <Typography gutterBottom variant="headline" component="h2">
+          Why Azerbaijan is unable to offer viable solutions to the Nagorno-Karabakh Conflict
+        </Typography>
+        <Typography component="p">
+          Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
+          across all continents except Antarctica
+        </Typography>
+      </CardContent>
+      <CardActions>
+        <Button size="small" color="primary">
+          Share
+        </Button>
+        <Button size="small" color="primary">
+          <a href={`/publications${images[4]}`}>
             Learn More
           </a>
         </Button>

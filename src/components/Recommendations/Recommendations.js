@@ -40,6 +40,15 @@ class Recommendations extends Component {
           <div className={classes.a1}>
             <NavLink onClick={this.handleClose} to="/recommendations/armenia" style={{ padding: '14px 25px' }}>Armenia</NavLink>
             <NavLink onClick={this.handleClose} to="/recommendations/azerbaijan" style={{ padding: '14px 25px' }}>Azerbaijan</NavLink>
+            <NavLink onClick={this.handleClose} to="/recommendations/georgia" style={{ padding: '14px 25px' }}>Gerogia</NavLink>
+            <NavLink onClick={this.handleClose} to="/recommendations/turkey" style={{ padding: '14px 25px' }}>Turkey</NavLink>
+            <NavLink onClick={this.handleClose} to="/recommendations/russia" style={{ padding: '14px 25px' }}>Russia</NavLink>
+            <NavLink onClick={this.handleClose} to="/recommendations/iran" style={{ padding: '14px 25px' }}>Iran</NavLink>
+            <NavLink onClick={this.handleClose} to="/recommendations/unitedState" style={{ padding: '14px 25px' }}>United State</NavLink>
+            <NavLink onClick={this.handleClose} to="/recommendations/china" style={{ padding: '14px 25px' }}>China</NavLink>
+            <NavLink onClick={this.handleClose} to="/recommendations/kurdistan" style={{ padding: '14px 25px' }}>Kurdistan</NavLink>
+            <NavLink onClick={this.handleClose} to="/recommendations/europeanUnion" style={{ padding: '14px 25px' }}>European Union</NavLink>
+            <NavLink onClick={this.handleClose} to="/recommendations/other" style={{ padding: '14px 25px' }}>Other</NavLink>
 
             {/* in order to add new country in dropdown add For example Turkey:
             <NavLink  onClick={this.handleClose}   to="/recommendations/turkey" style = {{padding:'14px 25px'}}>Turkey</NavLink>

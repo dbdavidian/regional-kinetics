@@ -3,7 +3,6 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    border: 1px;
 }
 
 .content {
@@ -16,7 +15,9 @@
 
 .content .image {
     justify-content: center;
-	display: flex;
+    display: flex;
+    width: 96%;
+    height: 96%;
 }
 .paragraph {
     /* // https://stackoverflow.com/questions/4413015/browser-compatible-word-wrap-and-whitespace-pre */
