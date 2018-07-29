@@ -15,7 +15,7 @@ const About = () => (
 
       </p>
       <div className={classes.image}>
-        <img className={classes.image} src="About.gif" alt="Rise_and_Fall_of_the_Ottoman_Empire_1300-1923" />
+        <img className={classes.image} src="about.gif" alt="Rise_and_Fall_of_the_Ottoman_Empire_1300-1923" />
       </div>
       <p className={classes.paragraph}>
     Policies of nation states change with their interests. National borders are the most ephemeral. This animation shows how the expansion and contraction of a typical state is the rule rather than the exception. In this example, the Ottoman Empire conquered and expanded jurisdiction over states and peoples, starting from the Battle of Manzikert in 1073 to Osman declaring himself Sultan in 1299. By 1566 the empire expanded through the Balkans nearly reaching Vienna, Crimea, parts of Ukraine, across North Africa and the Arabian Gulf.{'\n\n'}

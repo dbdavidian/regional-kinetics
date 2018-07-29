@@ -15,7 +15,7 @@ function Router() {
     <div>
       <header>
         <div className={classes.logoHeaderDiv}>
-          <img className={classes.logo} src="logo.png" alt="Logo" />
+          <img className={classes.logo} src="./logo/logo.png" alt="Logo" />
           <h1 className={classes.header}>Regional Kinetics</h1>
         </div>
         <nav>
