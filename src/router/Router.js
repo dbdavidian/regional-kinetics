@@ -8,12 +8,16 @@ import Publications from '../components/Publications/Publications';
 import Recommendations from '../components/Recommendations/Recommendations';
 import Country from '../components/Country/Country';
 
-import './Router.css';
+import classes from './Router.css';
 
 function Router() {
   return (
     <div>
       <header>
+        <div className={classes.logoHeaderDiv}>
+          <img className={classes.logo} src="logo.png" alt="Logo" />
+          <h1 className={classes.header}>Regional Kinetics</h1>
+        </div>
         <nav>
           <NavLink to="/home">
               Home
