@@ -41,11 +41,8 @@ const Country = (props) => {
           </CardContent>
           <CardActions>
             <Button size="small" color="primary">
-                Share
-            </Button>
-            <Button size="small" color="primary">
               <a href={`/recommendations/armenia${armenia[0]}`}>
-                  Learn More
+                  View Article
               </a>
             </Button>
           </CardActions>

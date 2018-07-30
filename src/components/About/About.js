@@ -11,6 +11,8 @@ const About = () => (
 
     Policy suggestions are available in multiple languages, available upon request.{'\n\n'}
     
+    This project is under the supervision of David Davdian, Yerevan, Armenia.{'\n\n'}
+
     Contact: info@regionalkinetics.com{'\n\n'}
 
       </p>

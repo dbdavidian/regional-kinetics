@@ -7,6 +7,7 @@ import Contact from '../components/Contact/Contact';
 import Publications from '../components/Publications/Publications';
 import Recommendations from '../components/Recommendations/Recommendations';
 import Country from '../components/Country/Country';
+import Simulation from '../components/Simulation/Simulation';
 
 import classes from './Router.css';
 
@@ -20,20 +21,23 @@ function Router() {
         </div>
         <nav>
           <NavLink to="/home">
-              Home
-          </NavLink>
-          <NavLink to="/publications">
-              Significant Publications
-          </NavLink>
-          <NavLink to="/contact">
-              Contact
+            Home
           </NavLink>
           <NavLink to="/about">
-              About
+            About
           </NavLink>
           <a>
             <Recommendations />
           </a>
+          <NavLink to="/simulation">
+            Group Decision Simulation
+          </NavLink>
+          <NavLink to="/publications">
+            Significant Publications
+          </NavLink>
+          <NavLink to="/contact">
+            Contact
+          </NavLink>
         </nav>
       </header>
       <Switch>
@@ -43,6 +47,7 @@ function Router() {
         <Route path="/about" component={About} />
         <Route path="/publications" component={Publications} />
         <Route path="/recommendations/:country" component={Country} />
+        <Route path="/simulation" component={Simulation} />
       </Switch>
     </div>
   );

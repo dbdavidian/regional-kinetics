@@ -42,11 +42,8 @@ const Publications = () => (
       </CardContent>
       <CardActions>
         <Button size="small" color="primary">
-          Share
-        </Button>
-        <Button size="small" color="primary">
           <a href={`/publications${images[0]}`}>
-            Learn More
+            View Article
           </a>
         </Button>
       </CardActions>
@@ -64,11 +61,8 @@ const Publications = () => (
       </CardContent>
       <CardActions>
         <Button size="small" color="primary">
-          Share
-        </Button>
-        <Button size="small" color="primary">
           <a href={`/publications${images[1]}`}>
-            Learn More
+            View Article
           </a>
         </Button>
       </CardActions>
@@ -86,11 +80,8 @@ const Publications = () => (
       </CardContent>
       <CardActions>
         <Button size="small" color="primary">
-          Share
-        </Button>
-        <Button size="small" color="primary">
           <a href={`/publications${images[2]}`}>
-            Learn More
+            View Article
           </a>
         </Button>
       </CardActions>
@@ -111,11 +102,8 @@ const Publications = () => (
       </CardContent>
       <CardActions>
         <Button size="small" color="primary">
-          Share
-        </Button>
-        <Button size="small" color="primary">
           <a href={`/publications${images[3]}`}>
-            Learn More
+            View Article
           </a>
         </Button>
       </CardActions>
@@ -133,11 +121,8 @@ const Publications = () => (
       </CardContent>
       <CardActions>
         <Button size="small" color="primary">
-          Share
-        </Button>
-        <Button size="small" color="primary">
           <a href={`/publications${images[4]}`}>
-            Learn More
+            View Article
           </a>
         </Button>
       </CardActions>
