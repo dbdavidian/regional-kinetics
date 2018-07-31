@@ -1,11 +1,6 @@
 import React from 'react';
-
-import Card from '@material-ui/core/Card';
-import CardContent from '@material-ui/core/CardContent';
-import Typography from '@material-ui/core/Typography';
-import CardActions from '@material-ui/core/CardActions';
-import Button from '@material-ui/core/Button';
-import classes from './Country.css';
+import CardView from '../CardView/CardView';
+import classes from '../CardView/CardView.css';
 
 const importAll = r => r.keys().map(r);
 
@@ -28,280 +23,122 @@ const Country = (props) => {
   case 'armenia':
     return (
       <ul className={classes.flexcontainer}>
-        <Card className={classes.flexitem}>
-          <CardContent>
-            <Typography gutterBottom variant="headline" component="h2">
-                For Armenia
-            </Typography>
-            <Typography component="p">
-                Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-                across all continents except Antarctica
-            </Typography>
-          </CardContent>
-          <CardActions>
-            <Button size="small" color="primary">
-              <a href={`/recommendations/armenia${armenia[0]}`}>
-                  View Article
-              </a>
-            </Button>
-          </CardActions>
-        </Card>
+        <CardView
+          headline={'For Armenia'}
+          body={'Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica'}
+          link={`/recommendations/armenia${armenia[0]}`}
+        />
       </ul>
     );
   case 'azerbaijan':
     return (
       <ul className={classes.flexcontainer}>
-        <Card className={classes.flexitem}>
-          <CardContent>
-            <Typography gutterBottom variant="headline" component="h2">
-                For Azerbaijan
-            </Typography>
-            <Typography component="p">
-                Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-                across all continents except Antarctica
-            </Typography>
-          </CardContent>
-          <CardActions>
-            <Button size="small" color="primary">
-              <a href={`/recommendations/azerbaijan${azerbaijan[0]}`}>
-                  View Article
-              </a>
-            </Button>
-          </CardActions>
-        </Card>
+        <CardView
+          headline={'For Azerbaijan'}
+          body={'Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica'}
+          link={`/recommendations/azerbaijan${azerbaijan[0]}`}
+        />
       </ul>
     );
 
   case 'georgia':
     return (
       <ul className={classes.flexcontainer}>
-        <Card className={classes.flexitem}>
-          <CardContent>
-            <Typography gutterBottom variant="headline" component="h2">
-                For Georgia
-            </Typography>
-            <Typography component="p">
-                Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-                across all continents except Antarctica
-            </Typography>
-          </CardContent>
-          <CardActions>
-            <Button size="small" color="primary">
-              <a href={`/recommendations/georgia${georgia[0]}`}>
-                  View Article
-              </a>
-            </Button>
-          </CardActions>
-        </Card>
+        <CardView
+          headline={'For Georgia'}
+          body={'Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica'}
+          link={`/recommendations/georgia${georgia[0]}`}
+        />
       </ul>
     );
 
   case 'turkey':
     return (
       <ul className={classes.flexcontainer}>
-        <Card className={classes.flexitem}>
-          <CardContent>
-            <Typography gutterBottom variant="headline" component="h2">
-                For Turkey
-            </Typography>
-            <Typography component="p">
-                Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-                across all continents except Antarctica
-            </Typography>
-          </CardContent>
-          <CardActions>
-            <Button size="small" color="primary">
-              <a href={`/recommendations/turkey${turkey[0]}`}>
-                  View Article
-              </a>
-            </Button>
-          </CardActions>
-        </Card>
+        <CardView
+          headline={'For Turkey'}
+          body={'Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica'}
+          link={`/recommendations/turkey${turkey[0]}`}
+        />
       </ul>
     );
 
   case 'russia':
     return (
       <ul className={classes.flexcontainer}>
-        <Card className={classes.flexitem}>
-          <CardContent>
-            <Typography gutterBottom variant="headline" component="h2">
-                For Russia
-            </Typography>
-            <Typography component="p">
-                Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-                across all continents except Antarctica
-            </Typography>
-          </CardContent>
-          <CardActions>
-            <Button size="small" color="primary">
-              <a href={`/recommendations/russia${russia[0]}`}>
-                  View Article
-              </a>
-            </Button>
-          </CardActions>
-        </Card>
+        <CardView
+          headline={'For Russia'}
+          body={'Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica'}
+          link={`/recommendations/russia${russia[0]}`}
+        />
       </ul>
     );
 
   case 'iran':
     return (
       <ul className={classes.flexcontainer}>
-        <Card className={classes.flexitem}>
-          <CardContent>
-            <Typography gutterBottom variant="headline" component="h2">
-                For Iran
-            </Typography>
-            <Typography component="p">
-                Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-                across all continents except Antarctica
-            </Typography>
-          </CardContent>
-          <CardActions>
-            <Button size="small" color="primary">
-              <a href={`/recommendations/iran${iran[0]}`}>
-                  View Article
-              </a>
-            </Button>
-          </CardActions>
-        </Card>
+        <CardView
+          headline={'For Iran'}
+          body={'Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica'}
+          link={`/recommendations/iran${iran[0]}`}
+        />
       </ul>
     );
 
   case 'unitedStates':
     return (
       <ul className={classes.flexcontainer}>
-        <Card className={classes.flexitem}>
-          <CardContent>
-            <Typography gutterBottom variant="headline" component="h2">
-                For United States
-            </Typography>
-            <Typography component="p">
-                Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-                across all continents except Antarctica
-            </Typography>
-          </CardContent>
-          <CardActions>
-            <Button size="small" color="primary">
-              <a href={`/recommendations/unitedStates${unitedStates[0]}`}>
-                  View Article
-              </a>
-            </Button>
-          </CardActions>
-        </Card>
+        <CardView
+          headline={'For United States'}
+          body={'Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica'}
+          link={`/recommendations/unitedStates${unitedStates[0]}`}
+        />
       </ul>
     );
 
   case 'china':
     return (
       <ul className={classes.flexcontainer}>
-        <Card className={classes.flexitem}>
-          <CardContent>
-            <Typography gutterBottom variant="headline" component="h2">
-                For China
-            </Typography>
-            <Typography component="p">
-                Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-                across all continents except Antarctica
-            </Typography>
-          </CardContent>
-          <CardActions>
-            <Button size="small" color="primary">
-              <a href={`/recommendations/china${china[0]}`}>
-                  View Article
-              </a>
-            </Button>
-          </CardActions>
-        </Card>
+        <CardView
+          headline={'For China'}
+          body={'Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica'}
+          link={`/recommendations/china${china[0]}`}
+        />
       </ul>
     );
 
   case 'kurdistan':
     return (
       <ul className={classes.flexcontainer}>
-        <Card className={classes.flexitem}>
-          <CardContent>
-            <Typography gutterBottom variant="headline" component="h2">
-                For Kurdistan
-            </Typography>
-            <Typography component="p">
-                Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-                across all continents except Antarctica
-            </Typography>
-          </CardContent>
-          <CardActions>
-            <Button size="small" color="primary">
-              <a href={`/recommendations/kurdistan${kurdistan[0]}`}>
-                  View Article
-              </a>
-            </Button>
-          </CardActions>
-        </Card>
+        <CardView
+          headline={'For Kurdistan'}
+          body={'Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica'}
+          link={`/recommendations/kurdistan${kurdistan[0]}`}
+        />
       </ul>
     );
 
   case 'europeanUnion':
     return (
       <ul className={classes.flexcontainer}>
-        <Card className={classes.flexitem}>
-          <CardContent>
-            <Typography gutterBottom variant="headline" component="h2">
-                For European Union
-            </Typography>
-            <Typography component="p">
-                Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-                across all continents except Antarctica
-            </Typography>
-          </CardContent>
-          <CardActions>
-            <Button size="small" color="primary">
-              <a href={`/recommendations/europeanUnion${europeanUnion[0]}`}>
-                  View Article
-              </a>
-            </Button>
-          </CardActions>
-        </Card>
+        <CardView
+          headline={'For European Union'}
+          body={'Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica'}
+          link={`/recommendations/europeanUnion${europeanUnion[0]}`}
+        />
       </ul>
     );
 
   case 'other':
     return (
       <ul className={classes.flexcontainer}>
-        <Card className={classes.flexitem}>
-          <CardContent>
-            <Typography gutterBottom variant="headline" component="h2">
-                For Other
-            </Typography>
-            <Typography component="p">
-                Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-                across all continents except Antarctica
-            </Typography>
-          </CardContent>
-          <CardActions>
-            <Button size="small" color="primary">
-              <a href={`/recommendations/other${other[0]}`}>
-                  View Article
-              </a>
-            </Button>
-          </CardActions>
-        </Card>
+        <CardView
+          headline={'For Other'}
+          body={'Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica'}
+          link={`/recommendations/other${other[0]}`}
+        />
       </ul>
     );
-
-    /* case 'turkey':
-    return (
-      <ul className={classes.flexcontainer}>
-        <li className={classes.flexitem}>
-          <a href={`/recommendations/turkey${turkey[0]}`}>
-            Map of Turkey1
-          </a>
-          <a href={`/recommendations/turkey${turkey[1]}`}>
-            Map of Turkey2
-          </a>
-        </li>
-      </ul>
-    ); */
-
   default: return (
     <p>No such Country</p>
   );
