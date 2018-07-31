@@ -21,8 +21,7 @@ const kurdistan = importAll(require.context('../../../public/recommendations/kur
 const europeanUnion = importAll(require.context('../../../public/recommendations/europeanUnion', false, /\.(pdf)$/));
 const other = importAll(require.context('../../../public/recommendations/other', false, /\.(pdf)$/));
 
-// to add new country first create a new file in public/recomandation folder. for example turkey then import as is done above.For
-// example  const turkey = importAll(require.context('../../../public/recommendations/turkey', false, /\.(pdf)$/));
+// To add new country first create a new file in public/recomendation folder.
 
 const Country = (props) => {
   switch (props.match.params.country) {
@@ -55,7 +54,7 @@ const Country = (props) => {
         <Card className={classes.flexitem}>
           <CardContent>
             <Typography gutterBottom variant="headline" component="h2">
-              For Azerbaijan
+                For Azerbaijan
             </Typography>
             <Typography component="p">
                 Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
@@ -64,11 +63,8 @@ const Country = (props) => {
           </CardContent>
           <CardActions>
             <Button size="small" color="primary">
-                Share
-            </Button>
-            <Button size="small" color="primary">
               <a href={`/recommendations/azerbaijan${azerbaijan[0]}`}>
-                  Learn More
+                  View Article
               </a>
             </Button>
           </CardActions>
@@ -82,7 +78,7 @@ const Country = (props) => {
         <Card className={classes.flexitem}>
           <CardContent>
             <Typography gutterBottom variant="headline" component="h2">
-              For Georgia
+                For Georgia
             </Typography>
             <Typography component="p">
                 Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
@@ -91,11 +87,8 @@ const Country = (props) => {
           </CardContent>
           <CardActions>
             <Button size="small" color="primary">
-                Share
-            </Button>
-            <Button size="small" color="primary">
               <a href={`/recommendations/georgia${georgia[0]}`}>
-                  Learn More
+                  View Article
               </a>
             </Button>
           </CardActions>
@@ -109,7 +102,7 @@ const Country = (props) => {
         <Card className={classes.flexitem}>
           <CardContent>
             <Typography gutterBottom variant="headline" component="h2">
-              For Turkey
+                For Turkey
             </Typography>
             <Typography component="p">
                 Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
@@ -118,11 +111,8 @@ const Country = (props) => {
           </CardContent>
           <CardActions>
             <Button size="small" color="primary">
-                Share
-            </Button>
-            <Button size="small" color="primary">
               <a href={`/recommendations/turkey${turkey[0]}`}>
-                  Learn More
+                  View Article
               </a>
             </Button>
           </CardActions>
@@ -136,7 +126,7 @@ const Country = (props) => {
         <Card className={classes.flexitem}>
           <CardContent>
             <Typography gutterBottom variant="headline" component="h2">
-              For Russia
+                For Russia
             </Typography>
             <Typography component="p">
                 Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
@@ -145,11 +135,8 @@ const Country = (props) => {
           </CardContent>
           <CardActions>
             <Button size="small" color="primary">
-                Share
-            </Button>
-            <Button size="small" color="primary">
               <a href={`/recommendations/russia${russia[0]}`}>
-                  Learn More
+                  View Article
               </a>
             </Button>
           </CardActions>
@@ -163,7 +150,7 @@ const Country = (props) => {
         <Card className={classes.flexitem}>
           <CardContent>
             <Typography gutterBottom variant="headline" component="h2">
-              For Iran
+                For Iran
             </Typography>
             <Typography component="p">
                 Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
@@ -172,11 +159,8 @@ const Country = (props) => {
           </CardContent>
           <CardActions>
             <Button size="small" color="primary">
-                Share
-            </Button>
-            <Button size="small" color="primary">
               <a href={`/recommendations/iran${iran[0]}`}>
-                  Learn More
+                  View Article
               </a>
             </Button>
           </CardActions>
@@ -190,7 +174,7 @@ const Country = (props) => {
         <Card className={classes.flexitem}>
           <CardContent>
             <Typography gutterBottom variant="headline" component="h2">
-              For United States
+                For United States
             </Typography>
             <Typography component="p">
                 Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
@@ -199,11 +183,8 @@ const Country = (props) => {
           </CardContent>
           <CardActions>
             <Button size="small" color="primary">
-                Share
-            </Button>
-            <Button size="small" color="primary">
               <a href={`/recommendations/unitedStates${unitedStates[0]}`}>
-                  Learn More
+                  View Article
               </a>
             </Button>
           </CardActions>
@@ -217,7 +198,7 @@ const Country = (props) => {
         <Card className={classes.flexitem}>
           <CardContent>
             <Typography gutterBottom variant="headline" component="h2">
-              For China
+                For China
             </Typography>
             <Typography component="p">
                 Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
@@ -226,11 +207,8 @@ const Country = (props) => {
           </CardContent>
           <CardActions>
             <Button size="small" color="primary">
-                Share
-            </Button>
-            <Button size="small" color="primary">
               <a href={`/recommendations/china${china[0]}`}>
-                  Learn More
+                  View Article
               </a>
             </Button>
           </CardActions>
@@ -244,7 +222,7 @@ const Country = (props) => {
         <Card className={classes.flexitem}>
           <CardContent>
             <Typography gutterBottom variant="headline" component="h2">
-              For Kurdistan
+                For Kurdistan
             </Typography>
             <Typography component="p">
                 Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
@@ -253,11 +231,8 @@ const Country = (props) => {
           </CardContent>
           <CardActions>
             <Button size="small" color="primary">
-                Share
-            </Button>
-            <Button size="small" color="primary">
               <a href={`/recommendations/kurdistan${kurdistan[0]}`}>
-                  Learn More
+                  View Article
               </a>
             </Button>
           </CardActions>
@@ -271,7 +246,7 @@ const Country = (props) => {
         <Card className={classes.flexitem}>
           <CardContent>
             <Typography gutterBottom variant="headline" component="h2">
-              For European Union
+                For European Union
             </Typography>
             <Typography component="p">
                 Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
@@ -280,11 +255,8 @@ const Country = (props) => {
           </CardContent>
           <CardActions>
             <Button size="small" color="primary">
-                Share
-            </Button>
-            <Button size="small" color="primary">
               <a href={`/recommendations/europeanUnion${europeanUnion[0]}`}>
-                  Learn More
+                  View Article
               </a>
             </Button>
           </CardActions>
@@ -298,7 +270,7 @@ const Country = (props) => {
         <Card className={classes.flexitem}>
           <CardContent>
             <Typography gutterBottom variant="headline" component="h2">
-              For Other
+                For Other
             </Typography>
             <Typography component="p">
                 Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
@@ -307,11 +279,8 @@ const Country = (props) => {
           </CardContent>
           <CardActions>
             <Button size="small" color="primary">
-                Share
-            </Button>
-            <Button size="small" color="primary">
               <a href={`/recommendations/other${other[0]}`}>
-                  Learn More
+                  View Article
               </a>
             </Button>
           </CardActions>

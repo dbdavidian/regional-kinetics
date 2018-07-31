@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-// import Button from '@material-ui/core/Button';
 import Menu from '@material-ui/core/Menu';
 import { NavLink } from 'react-router-dom';
 import classes from './Recommendations.css';
@@ -50,9 +49,7 @@ class Recommendations extends Component {
             <NavLink onClick={this.handleClose} to="/recommendations/europeanUnion" style={{ padding: '14px 25px' }}>European Union</NavLink>
             <NavLink onClick={this.handleClose} to="/recommendations/other" style={{ padding: '14px 25px' }}>Other</NavLink>
 
-            {/* in order to add new country in dropdown add For example Turkey:
-            <NavLink  onClick={this.handleClose}   to="/recommendations/turkey" style = {{padding:'14px 25px'}}>Turkey</NavLink>
-            */}
+            {/* In order to add new country in dropdown add it here.*/}
           </div>
         </Menu>
       </div>

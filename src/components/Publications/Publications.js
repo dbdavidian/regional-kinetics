@@ -9,27 +9,10 @@ import classes from './Publications.css';
 
 const importAll = r => r.keys().map(r);
 
-const images = importAll(require.context('../../../public/publications', false, /\.(pdf)$/));
+const pdfs = importAll(require.context('../../../public/publications', false, /\.(pdf)$/));
 
 const Publications = () => (
   <ul className={classes.flexcontainer}>
-
-    {/* <li className={classes.flexitem}>
-      <a href={`/publications${images[0]}`}>
-        armenia-migration
-      </a>
-    </li>
-    <li className={classes.flexitem}>
-      <a href={`/publications${images[1]}`}>
-        azerbaijan-map
-      </a>
-    </li>
-    <li className={classes.flexitem}>
-      <a href={`/publications${images[2]}`}>
-        pdf-sample
-      </a>
-    </li> */}
-
     <Card className={classes.flexitem}>
       <CardContent>
         <Typography gutterBottom variant="headline" component="h2">
@@ -42,7 +25,7 @@ const Publications = () => (
       </CardContent>
       <CardActions>
         <Button size="small" color="primary">
-          <a href={`/publications${images[0]}`}>
+          <a href={`/publications${pdfs[0]}`}>
             View Article
           </a>
         </Button>
@@ -61,7 +44,7 @@ const Publications = () => (
       </CardContent>
       <CardActions>
         <Button size="small" color="primary">
-          <a href={`/publications${images[1]}`}>
+          <a href={`/publications${pdfs[1]}`}>
             View Article
           </a>
         </Button>
@@ -80,7 +63,7 @@ const Publications = () => (
       </CardContent>
       <CardActions>
         <Button size="small" color="primary">
-          <a href={`/publications${images[2]}`}>
+          <a href={`/publications${pdfs[2]}`}>
             View Article
           </a>
         </Button>
@@ -102,7 +85,7 @@ const Publications = () => (
       </CardContent>
       <CardActions>
         <Button size="small" color="primary">
-          <a href={`/publications${images[3]}`}>
+          <a href={`/publications${pdfs[3]}`}>
             View Article
           </a>
         </Button>
@@ -121,15 +104,14 @@ const Publications = () => (
       </CardContent>
       <CardActions>
         <Button size="small" color="primary">
-          <a href={`/publications${images[4]}`}>
+          <a href={`/publications${pdfs[4]}`}>
             View Article
           </a>
         </Button>
       </CardActions>
     </Card>
 
-    {/* add pdf file in  /public/publications and then
-    <a href={`/publications${images[3]}`}>title</a> note the order in /public/publications */}
+    {/* add pdf file in  /public/publications and then here. */}
   </ul>
 );
 
