@@ -18,7 +18,7 @@
     text-align: center;
 }
 
-.content .image {
+.imageContainer {
     justify-content: center;
 
     display: -webkit-box;
@@ -26,8 +26,11 @@
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
-    width: 96%;
-    height: 96%;
+}
+
+.image {
+    width: 95%;
+    height: 95%;
 }
 .paragraph {
     /* // https://stackoverflow.com/questions/4413015/browser-compatible-word-wrap-and-whitespace-pre */

@@ -16,7 +16,7 @@ const About = () => (
     Contact: info@regionalkinetics.com{'\n\n'}
 
       </p>
-      <div className={classes.image}>
+      <div className={classes.imageContainer}>
         <img className={classes.image} src="about.gif" alt="Rise_and_Fall_of_the_Ottoman_Empire_1300-1923" />
       </div>
       <p className={classes.paragraph}>
