@@ -1,13 +1,13 @@
 import React from 'react';
 import CardView from '../CardView/CardView';
-import classes from '../CardView/CardView.css';
+import '../CardView/CardView.css';
 
 //const importAll = r => r.keys().map(r);
 
 //const pdfs = importAll(require.context('../../../public/publications', false, /\.(pdf)$/));
 
 const Publications = () => (
-  <ul className={classes.flexcontainer}>
+  <ul className="flexcontainer">
     <CardView
       headline={'Oligarchies and Strategic Danger to Small State Security'}
       body={'Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica'}

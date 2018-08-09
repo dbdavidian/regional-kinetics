@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Menu from '@material-ui/core/Menu';
 import { NavLink } from 'react-router-dom';
-import classes from './Recommendations.css';
+import './Recommendations.css';
 
 class Recommendations extends Component {
   state = {
@@ -36,7 +36,7 @@ class Recommendations extends Component {
           open={!!anchorEl}
           onClose={this.handleClose}
         >
-          <div className={classes.a1}>
+          <div className="listItems">
             <NavLink onClick={this.handleClose} to="/recommendations/armenia">Armenia</NavLink>
             <NavLink onClick={this.handleClose} to="/recommendations/azerbaijan">Azerbaijan</NavLink>
             <NavLink onClick={this.handleClose} to="/recommendations/georgia">Gerogia</NavLink>

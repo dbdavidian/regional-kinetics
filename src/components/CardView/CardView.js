@@ -6,11 +6,11 @@ import Typography from '@material-ui/core/Typography';
 import CardActions from '@material-ui/core/CardActions';
 import Button from '@material-ui/core/Button';
 
-import classes from './CardView.css';
+import './CardView.css';
 
 
 const cardView = (props) => {
-  return (<Card className={classes.flexitem}>
+  return (<Card className="flexitem">
     <CardContent>
       <Typography gutterBottom variant="headline" component="h2">
         {props.headline}

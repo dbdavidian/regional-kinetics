@@ -9,15 +9,15 @@ import Recommendations from '../components/Recommendations/Recommendations';
 import Country from '../components/Country/Country';
 import Simulation from '../components/Simulation/Simulation';
 
-import classes from './Router.css';
+import './Router.css';
 
 function Router() {
   return (
     <div>
       <header>
-        <div className={classes.logoHeaderDiv}>
-          <img className={classes.logo} src="/logo/logo.png" alt="Logo" />
-          <h1 className={classes.header}>Regional Kinetics</h1>
+        <div className="logoHeaderDiv">
+          <img className="logo" src="/logo/logo.png" alt="Logo" />
+          <h1 className="header">Regional Kinetics</h1>
         </div>
         <nav>
           <NavLink to="/home">

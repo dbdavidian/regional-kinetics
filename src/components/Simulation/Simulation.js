@@ -1,7 +1,7 @@
 import React from 'react';
 import CardView from '../CardView/CardView';
-import classes from '../CardView/CardView.css';
-import localClasses from './Simulation.css';
+import '../CardView/CardView.css';
+import './Simulation.css';
 
 const importAll = r => r.keys().map(r);
 
@@ -9,12 +9,12 @@ const armenia = importAll(require.context('../../../public/recommendations/armen
 
 const Simulation = () => (
   <div>
-    <div className={localClasses.container}>
+    <div className="container">
       <h1>Group Decision Simulation</h1>
       <p>Nash like equilibrium</p>
       <p>PDF CARDS - This is just a template for now!</p>
     </div>
-    <ul className={classes.flexcontainer}>
+    <ul className="flexcontainer">
       <CardView
         headline={'Why Azerbaijan is unable to offer viable solutions to the Nagorno-Karabakh Conflict'}
         body={'Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica'}

@@ -1,6 +1,6 @@
 import React from 'react';
 import CardView from '../CardView/CardView';
-import classes from '../CardView/CardView.css';
+import '../CardView/CardView.css';
 
 const importAll = r => r.keys().map(r);
 
@@ -22,7 +22,7 @@ const Country = (props) => {
   switch (props.match.params.country) {
   case 'armenia':
     return (
-      <ul className={classes.flexcontainer}>
+      <ul className="flexcontainer">
         <CardView
           headline={'For Armenia'}
           body={'Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica'}
@@ -32,7 +32,7 @@ const Country = (props) => {
     );
   case 'azerbaijan':
     return (
-      <ul className={classes.flexcontainer}>
+      <ul className="flexcontainer">
         <CardView
           headline={'For Azerbaijan'}
           body={'Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica'}
@@ -43,7 +43,7 @@ const Country = (props) => {
 
   case 'georgia':
     return (
-      <ul className={classes.flexcontainer}>
+      <ul className="flexcontainer">
         <CardView
           headline={'For Georgia'}
           body={'Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica'}
@@ -54,7 +54,7 @@ const Country = (props) => {
 
   case 'turkey':
     return (
-      <ul className={classes.flexcontainer}>
+      <ul className="flexcontainer">
         <CardView
           headline={'For Turkey'}
           body={'Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica'}
@@ -65,7 +65,7 @@ const Country = (props) => {
 
   case 'russia':
     return (
-      <ul className={classes.flexcontainer}>
+      <ul className="flexcontainer">
         <CardView
           headline={'For Russia'}
           body={'Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica'}
@@ -76,7 +76,7 @@ const Country = (props) => {
 
   case 'iran':
     return (
-      <ul className={classes.flexcontainer}>
+      <ul className="flexcontainer">
         <CardView
           headline={'For Iran'}
           body={'Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica'}
@@ -87,7 +87,7 @@ const Country = (props) => {
 
   case 'unitedStates':
     return (
-      <ul className={classes.flexcontainer}>
+      <ul className="flexcontainer">
         <CardView
           headline={'For United States'}
           body={'Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica'}
@@ -98,7 +98,7 @@ const Country = (props) => {
 
   case 'china':
     return (
-      <ul className={classes.flexcontainer}>
+      <ul className="flexcontainer">
         <CardView
           headline={'For China'}
           body={'Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica'}
@@ -109,7 +109,7 @@ const Country = (props) => {
 
   case 'kurdistan':
     return (
-      <ul className={classes.flexcontainer}>
+      <ul className="flexcontainer">
         <CardView
           headline={'For Kurdistan'}
           body={'Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica'}
@@ -120,7 +120,7 @@ const Country = (props) => {
 
   case 'europeanUnion':
     return (
-      <ul className={classes.flexcontainer}>
+      <ul className="flexcontainer">
         <CardView
           headline={'For European Union'}
           body={'Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica'}
@@ -131,7 +131,7 @@ const Country = (props) => {
 
   case 'other':
     return (
-      <ul className={classes.flexcontainer}>
+      <ul className="flexcontainer">
         <CardView
           headline={'For Other'}
           body={'Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica'}
