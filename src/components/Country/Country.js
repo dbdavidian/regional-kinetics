@@ -2,22 +2,6 @@ import React from 'react';
 import CardView from '../CardView/CardView';
 import '../CardView/CardView.css';
 
-const importAll = r => r.keys().map(r);
-
-const armenia = importAll(require.context('../../../public/recommendations/armenia', false, /\.(pdf)$/));
-const azerbaijan = importAll(require.context('../../../public/recommendations/azerbaijan', false, /\.(pdf)$/));
-const georgia = importAll(require.context('../../../public/recommendations/azerbaijan', false, /\.(pdf)$/));
-const turkey = importAll(require.context('../../../public/recommendations/turkey', false, /\.(pdf)$/));
-const russia = importAll(require.context('../../../public/recommendations/russia', false, /\.(pdf)$/));
-const iran = importAll(require.context('../../../public/recommendations/iran', false, /\.(pdf)$/));
-const unitedStates = importAll(require.context('../../../public/recommendations/unitedStates', false, /\.(pdf)$/));
-const china = importAll(require.context('../../../public/recommendations/china', false, /\.(pdf)$/));
-const kurdistan = importAll(require.context('../../../public/recommendations/kurdistan', false, /\.(pdf)$/));
-const europeanUnion = importAll(require.context('../../../public/recommendations/europeanUnion', false, /\.(pdf)$/));
-const other = importAll(require.context('../../../public/recommendations/other', false, /\.(pdf)$/));
-
-// To add new country first create a new file in public/recomendation folder.
-
 const Country = (props) => {
   switch (props.match.params.country) {
   case 'armenia':
@@ -26,7 +10,7 @@ const Country = (props) => {
         <CardView
           headline={'For Armenia'}
           body={'Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica'}
-          link={`/recommendations/armenia${armenia[0]}`}
+          link={'https://firebasestorage.googleapis.com/v0/b/regional-kinetics.appspot.com/o/Recommendations%2FSample.pdf?alt=media&token=737bd627-ef86-4ad0-8fb8-0412fd62049b'}
         />
       </ul>
     );
@@ -36,7 +20,7 @@ const Country = (props) => {
         <CardView
           headline={'For Azerbaijan'}
           body={'Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica'}
-          link={`/recommendations/azerbaijan${azerbaijan[0]}`}
+          link={'https://firebasestorage.googleapis.com/v0/b/regional-kinetics.appspot.com/o/Recommendations%2FSample.pdf?alt=media&token=737bd627-ef86-4ad0-8fb8-0412fd62049b'}
         />
       </ul>
     );
@@ -47,7 +31,7 @@ const Country = (props) => {
         <CardView
           headline={'For Georgia'}
           body={'Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica'}
-          link={`/recommendations/georgia${georgia[0]}`}
+          link={'https://firebasestorage.googleapis.com/v0/b/regional-kinetics.appspot.com/o/Recommendations%2FSample.pdf?alt=media&token=737bd627-ef86-4ad0-8fb8-0412fd62049b'}
         />
       </ul>
     );
@@ -58,7 +42,7 @@ const Country = (props) => {
         <CardView
           headline={'For Turkey'}
           body={'Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica'}
-          link={`/recommendations/turkey${turkey[0]}`}
+          link={'https://firebasestorage.googleapis.com/v0/b/regional-kinetics.appspot.com/o/Recommendations%2FSample.pdf?alt=media&token=737bd627-ef86-4ad0-8fb8-0412fd62049b'}
         />
       </ul>
     );
@@ -69,7 +53,7 @@ const Country = (props) => {
         <CardView
           headline={'For Russia'}
           body={'Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica'}
-          link={`/recommendations/russia${russia[0]}`}
+          link={'https://firebasestorage.googleapis.com/v0/b/regional-kinetics.appspot.com/o/Recommendations%2FSample.pdf?alt=media&token=737bd627-ef86-4ad0-8fb8-0412fd62049b'}
         />
       </ul>
     );
@@ -80,7 +64,7 @@ const Country = (props) => {
         <CardView
           headline={'For Iran'}
           body={'Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica'}
-          link={`/recommendations/iran${iran[0]}`}
+          link={'https://firebasestorage.googleapis.com/v0/b/regional-kinetics.appspot.com/o/Recommendations%2FSample.pdf?alt=media&token=737bd627-ef86-4ad0-8fb8-0412fd62049b'}
         />
       </ul>
     );
@@ -91,7 +75,7 @@ const Country = (props) => {
         <CardView
           headline={'For United States'}
           body={'Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica'}
-          link={`/recommendations/unitedStates${unitedStates[0]}`}
+          link={'https://firebasestorage.googleapis.com/v0/b/regional-kinetics.appspot.com/o/Recommendations%2FSample.pdf?alt=media&token=737bd627-ef86-4ad0-8fb8-0412fd62049b'}
         />
       </ul>
     );
@@ -102,7 +86,7 @@ const Country = (props) => {
         <CardView
           headline={'For China'}
           body={'Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica'}
-          link={`/recommendations/china${china[0]}`}
+          link={'https://firebasestorage.googleapis.com/v0/b/regional-kinetics.appspot.com/o/Recommendations%2FSample.pdf?alt=media&token=737bd627-ef86-4ad0-8fb8-0412fd62049b'}
         />
       </ul>
     );
@@ -113,7 +97,7 @@ const Country = (props) => {
         <CardView
           headline={'For Kurdistan'}
           body={'Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica'}
-          link={`/recommendations/kurdistan${kurdistan[0]}`}
+          link={'https://firebasestorage.googleapis.com/v0/b/regional-kinetics.appspot.com/o/Recommendations%2FSample.pdf?alt=media&token=737bd627-ef86-4ad0-8fb8-0412fd62049b'}
         />
       </ul>
     );
@@ -124,7 +108,7 @@ const Country = (props) => {
         <CardView
           headline={'For European Union'}
           body={'Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica'}
-          link={`/recommendations/europeanUnion${europeanUnion[0]}`}
+          link={'https://firebasestorage.googleapis.com/v0/b/regional-kinetics.appspot.com/o/Recommendations%2FSample.pdf?alt=media&token=737bd627-ef86-4ad0-8fb8-0412fd62049b'}
         />
       </ul>
     );
@@ -135,7 +119,7 @@ const Country = (props) => {
         <CardView
           headline={'For Other'}
           body={'Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica'}
-          link={`/recommendations/other${other[0]}`}
+          link={'https://firebasestorage.googleapis.com/v0/b/regional-kinetics.appspot.com/o/Recommendations%2FSample.pdf?alt=media&token=737bd627-ef86-4ad0-8fb8-0412fd62049b'}
         />
       </ul>
     );
