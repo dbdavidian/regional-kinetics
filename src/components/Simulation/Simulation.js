@@ -11,8 +11,8 @@ const Simulation = () => (
     </div>
     <ul className="flexcontainer">
       <CardView
-        headline={'Why Azerbaijan is unable to offer viable solutions to the Nagorno-Karabakh Conflict'}
-        body={'Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica'}
+        headline={'Sample Empty Document'}
+        body={'Sample Empty Document'}
         link={'https://firebasestorage.googleapis.com/v0/b/regional-kinetics.appspot.com/o/Simulation%2FSample.pdf?alt=media&token=5cd71555-3789-48dc-b872-bd2b61a91c08'}
       />
     </ul>

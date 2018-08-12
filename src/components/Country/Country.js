@@ -9,7 +9,7 @@ const Country = (props) => {
       <ul className="flexcontainer">
         <CardView
           headline={'For Armenia'}
-          body={'Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica'}
+          body={'Sample Empty Document'}
           link={'https://firebasestorage.googleapis.com/v0/b/regional-kinetics.appspot.com/o/Recommendations%2FSample.pdf?alt=media&token=737bd627-ef86-4ad0-8fb8-0412fd62049b'}
         />
       </ul>
@@ -19,7 +19,7 @@ const Country = (props) => {
       <ul className="flexcontainer">
         <CardView
           headline={'For Azerbaijan'}
-          body={'Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica'}
+          body={'Sample Empty Document'}
           link={'https://firebasestorage.googleapis.com/v0/b/regional-kinetics.appspot.com/o/Recommendations%2FSample.pdf?alt=media&token=737bd627-ef86-4ad0-8fb8-0412fd62049b'}
         />
       </ul>
@@ -30,7 +30,7 @@ const Country = (props) => {
       <ul className="flexcontainer">
         <CardView
           headline={'For Georgia'}
-          body={'Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica'}
+          body={'Sample Empty Document'}
           link={'https://firebasestorage.googleapis.com/v0/b/regional-kinetics.appspot.com/o/Recommendations%2FSample.pdf?alt=media&token=737bd627-ef86-4ad0-8fb8-0412fd62049b'}
         />
       </ul>
@@ -41,7 +41,7 @@ const Country = (props) => {
       <ul className="flexcontainer">
         <CardView
           headline={'For Turkey'}
-          body={'Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica'}
+          body={'Sample Empty Document'}
           link={'https://firebasestorage.googleapis.com/v0/b/regional-kinetics.appspot.com/o/Recommendations%2FSample.pdf?alt=media&token=737bd627-ef86-4ad0-8fb8-0412fd62049b'}
         />
       </ul>
@@ -52,7 +52,7 @@ const Country = (props) => {
       <ul className="flexcontainer">
         <CardView
           headline={'For Russia'}
-          body={'Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica'}
+          body={'Sample Empty Document'}
           link={'https://firebasestorage.googleapis.com/v0/b/regional-kinetics.appspot.com/o/Recommendations%2FSample.pdf?alt=media&token=737bd627-ef86-4ad0-8fb8-0412fd62049b'}
         />
       </ul>
@@ -63,7 +63,7 @@ const Country = (props) => {
       <ul className="flexcontainer">
         <CardView
           headline={'For Iran'}
-          body={'Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica'}
+          body={'Sample Empty Document'}
           link={'https://firebasestorage.googleapis.com/v0/b/regional-kinetics.appspot.com/o/Recommendations%2FSample.pdf?alt=media&token=737bd627-ef86-4ad0-8fb8-0412fd62049b'}
         />
       </ul>
@@ -74,7 +74,7 @@ const Country = (props) => {
       <ul className="flexcontainer">
         <CardView
           headline={'For United States'}
-          body={'Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica'}
+          body={'Sample Empty Document'}
           link={'https://firebasestorage.googleapis.com/v0/b/regional-kinetics.appspot.com/o/Recommendations%2FSample.pdf?alt=media&token=737bd627-ef86-4ad0-8fb8-0412fd62049b'}
         />
       </ul>
@@ -85,7 +85,7 @@ const Country = (props) => {
       <ul className="flexcontainer">
         <CardView
           headline={'For China'}
-          body={'Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica'}
+          body={'Sample Empty Document'}
           link={'https://firebasestorage.googleapis.com/v0/b/regional-kinetics.appspot.com/o/Recommendations%2FSample.pdf?alt=media&token=737bd627-ef86-4ad0-8fb8-0412fd62049b'}
         />
       </ul>
@@ -96,7 +96,7 @@ const Country = (props) => {
       <ul className="flexcontainer">
         <CardView
           headline={'For Kurdistan'}
-          body={'Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica'}
+          body={'Sample Empty Document'}
           link={'https://firebasestorage.googleapis.com/v0/b/regional-kinetics.appspot.com/o/Recommendations%2FSample.pdf?alt=media&token=737bd627-ef86-4ad0-8fb8-0412fd62049b'}
         />
       </ul>
@@ -107,7 +107,7 @@ const Country = (props) => {
       <ul className="flexcontainer">
         <CardView
           headline={'For European Union'}
-          body={'Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica'}
+          body={'Sample Empty Document'}
           link={'https://firebasestorage.googleapis.com/v0/b/regional-kinetics.appspot.com/o/Recommendations%2FSample.pdf?alt=media&token=737bd627-ef86-4ad0-8fb8-0412fd62049b'}
         />
       </ul>
@@ -118,7 +118,7 @@ const Country = (props) => {
       <ul className="flexcontainer">
         <CardView
           headline={'For Other'}
-          body={'Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica'}
+          body={'Sample Empty Document'}
           link={'https://firebasestorage.googleapis.com/v0/b/regional-kinetics.appspot.com/o/Recommendations%2FSample.pdf?alt=media&token=737bd627-ef86-4ad0-8fb8-0412fd62049b'}
         />
       </ul>
