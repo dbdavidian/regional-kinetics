@@ -2,10 +2,6 @@ import React from 'react';
 import CardView from '../CardView/CardView';
 import '../CardView/CardView.css';
 
-//const importAll = r => r.keys().map(r);
-
-//const pdfs = importAll(require.context('../../../public/publications', false, /\.(pdf)$/));
-
 const Publications = () => (
   <ul className="flexcontainer">
     <CardView
@@ -37,8 +33,6 @@ const Publications = () => (
       body={'Sample Summary'}
       link={'https://firebasestorage.googleapis.com/v0/b/regional-kinetics.appspot.com/o/Publications%2FWhy%20Azerbaijan%20is%20unable%20to%20offer%20viable%20solutions%20to%20the%20Nagorno-Karabakh%20Conflict.pdf?alt=media&token=21469814-9453-48b5-affe-bddca0485e1a'}
     />
-
-    {/* add pdf file in  /public/publications and then here. */}
   </ul>
 );
 
