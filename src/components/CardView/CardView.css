@@ -16,7 +16,10 @@
 
 .flexitem {
   padding: 5px;
+  width: 490px;
+  height: 210px;
   max-width: 500px;
+  max-height: 220px;
   margin-top: 20px;
   text-align: center;
 }

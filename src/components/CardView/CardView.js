@@ -20,7 +20,7 @@ const cardView = (props) => {
       </Typography>
     </CardContent>
     <CardActions>
-      <Button href={props.link} size="small" color="primary">
+      <Button href={props.link} size="medium">
             View Article
       </Button>
     </CardActions>
