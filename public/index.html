@@ -38,9 +38,13 @@
     You need to enable JavaScript to run this app.
   </noscript>
   <div id="root"></div>
-  <footer style="text-align:center; bottom:0; width:100%; display:block; font-size: 0.8em;">
-    <p>Copyright &copy; 2018. All Rights Reserved.</p>
-  </footer>
+
+  <div style="position:relative; width:100%; height: 100px;">
+    <div style="position:absolute; bottom: 5px; width:100%; font-size: 0.8em; text-align:center;">
+      Copyright &copy;
+      <script>document.write(new Date().getFullYear());</script> All Rights Reserved.
+    </div>
+  </div>
 </body>
 
 </html>
