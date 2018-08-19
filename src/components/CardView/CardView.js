@@ -21,7 +21,7 @@ const cardView = (props) => {
     </CardContent>
     <CardActions>
       <Button href={props.link} size="medium">
-            View Article
+        View Article
       </Button>
     </CardActions>
   </Card>);

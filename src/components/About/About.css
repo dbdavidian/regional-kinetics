@@ -1,42 +1,42 @@
 .container {
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    margin: 4%;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 4%;
 }
 
 .content {
-    max-width: 1000px;
+  max-width: 1000px;
 }
 
 .content h1 {
-    text-align: center;
+  text-align: center;
 }
 
 .imageContainer {
-    justify-content: center;
+  justify-content: center;
 
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
 }
 
 .image {
-    width: 95%;
-    height: 95%;
+  width: 95%;
+  height: 95%;
 }
 .paragraph {
-    /* // https://stackoverflow.com/questions/4413015/browser-compatible-word-wrap-and-whitespace-pre */
-		white-space: -moz-pre-wrap; /* Firefox */
-		white-space: -pre-wrap; /* ancient Opera */
-		white-space: -o-pre-wrap; /* newer Opera */
-		white-space: pre-wrap; /* Chrome; W3C standard */
-        word-wrap: break-word; /* IE */
+  /* // https://stackoverflow.com/questions/4413015/browser-compatible-word-wrap-and-whitespace-pre */
+	white-space: -moz-pre-wrap; /* Firefox */
+	white-space: -pre-wrap; /* ancient Opera */
+	white-space: -o-pre-wrap; /* newer Opera */
+	white-space: pre-wrap; /* Chrome; W3C standard */
+  word-wrap: break-word; /* IE */
 }
