@@ -13,7 +13,7 @@ const About = () => (
 
         This project is under the supervision of David Davdian, Yerevan, Armenia.{'\n\n'}
 
-        Contact: info@regionalkinetics.com{'\n\n'}
+        Contact: info@regionalkinetics.org{'\n\n'}
       </p>
       <div className="imageContainer">
         <img className="image" src="about.gif" alt="Rise_and_Fall_of_the_Ottoman_Empire_1300-1923" />
