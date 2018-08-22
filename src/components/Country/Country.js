@@ -10,7 +10,7 @@ const Country = (props) => {
         <CardView
           headline={'For Armenia'}
           body={'Sample Empty Document'}
-          link={'https://firebasestorage.googleapis.com/v0/b/regional-kinetics.appspot.com/o/Recommendations%2FSample.pdf?alt=media&token=737bd627-ef86-4ad0-8fb8-0412fd62049b'}
+          link={'https://firebasestorage.googleapis.com/v0/b/regional-kinetics-dd.appspot.com/o/Recommendations%2FSample.pdf?alt=media&token=479b762b-0985-48ab-b4df-0c5fedec6765'}
         />
       </ul>
     );
@@ -20,7 +20,7 @@ const Country = (props) => {
         <CardView
           headline={'For Azerbaijan'}
           body={'Sample Empty Document'}
-          link={'https://firebasestorage.googleapis.com/v0/b/regional-kinetics.appspot.com/o/Recommendations%2FSample.pdf?alt=media&token=737bd627-ef86-4ad0-8fb8-0412fd62049b'}
+          link={'https://firebasestorage.googleapis.com/v0/b/regional-kinetics-dd.appspot.com/o/Recommendations%2FSample.pdf?alt=media&token=479b762b-0985-48ab-b4df-0c5fedec6765'}
         />
       </ul>
     );
@@ -31,7 +31,7 @@ const Country = (props) => {
         <CardView
           headline={'For Georgia'}
           body={'Sample Empty Document'}
-          link={'https://firebasestorage.googleapis.com/v0/b/regional-kinetics.appspot.com/o/Recommendations%2FSample.pdf?alt=media&token=737bd627-ef86-4ad0-8fb8-0412fd62049b'}
+          link={'https://firebasestorage.googleapis.com/v0/b/regional-kinetics-dd.appspot.com/o/Recommendations%2FSample.pdf?alt=media&token=479b762b-0985-48ab-b4df-0c5fedec6765'}
         />
       </ul>
     );
@@ -42,7 +42,7 @@ const Country = (props) => {
         <CardView
           headline={'For Turkey'}
           body={'Sample Empty Document'}
-          link={'https://firebasestorage.googleapis.com/v0/b/regional-kinetics.appspot.com/o/Recommendations%2FSample.pdf?alt=media&token=737bd627-ef86-4ad0-8fb8-0412fd62049b'}
+          link={'https://firebasestorage.googleapis.com/v0/b/regional-kinetics-dd.appspot.com/o/Recommendations%2FSample.pdf?alt=media&token=479b762b-0985-48ab-b4df-0c5fedec6765'}
         />
       </ul>
     );
@@ -53,7 +53,7 @@ const Country = (props) => {
         <CardView
           headline={'For Russia'}
           body={'Sample Empty Document'}
-          link={'https://firebasestorage.googleapis.com/v0/b/regional-kinetics.appspot.com/o/Recommendations%2FSample.pdf?alt=media&token=737bd627-ef86-4ad0-8fb8-0412fd62049b'}
+          link={'https://firebasestorage.googleapis.com/v0/b/regional-kinetics-dd.appspot.com/o/Recommendations%2FSample.pdf?alt=media&token=479b762b-0985-48ab-b4df-0c5fedec6765'}
         />
       </ul>
     );
@@ -64,7 +64,7 @@ const Country = (props) => {
         <CardView
           headline={'For Iran'}
           body={'Sample Empty Document'}
-          link={'https://firebasestorage.googleapis.com/v0/b/regional-kinetics.appspot.com/o/Recommendations%2FSample.pdf?alt=media&token=737bd627-ef86-4ad0-8fb8-0412fd62049b'}
+          link={'https://firebasestorage.googleapis.com/v0/b/regional-kinetics-dd.appspot.com/o/Recommendations%2FSample.pdf?alt=media&token=479b762b-0985-48ab-b4df-0c5fedec6765'}
         />
       </ul>
     );
@@ -75,7 +75,7 @@ const Country = (props) => {
         <CardView
           headline={'For United States'}
           body={'Sample Empty Document'}
-          link={'https://firebasestorage.googleapis.com/v0/b/regional-kinetics.appspot.com/o/Recommendations%2FSample.pdf?alt=media&token=737bd627-ef86-4ad0-8fb8-0412fd62049b'}
+          link={'https://firebasestorage.googleapis.com/v0/b/regional-kinetics-dd.appspot.com/o/Recommendations%2FSample.pdf?alt=media&token=479b762b-0985-48ab-b4df-0c5fedec6765'}
         />
       </ul>
     );
@@ -86,7 +86,7 @@ const Country = (props) => {
         <CardView
           headline={'For China'}
           body={'Sample Empty Document'}
-          link={'https://firebasestorage.googleapis.com/v0/b/regional-kinetics.appspot.com/o/Recommendations%2FSample.pdf?alt=media&token=737bd627-ef86-4ad0-8fb8-0412fd62049b'}
+          link={'https://firebasestorage.googleapis.com/v0/b/regional-kinetics-dd.appspot.com/o/Recommendations%2FSample.pdf?alt=media&token=479b762b-0985-48ab-b4df-0c5fedec6765'}
         />
       </ul>
     );
@@ -97,7 +97,7 @@ const Country = (props) => {
         <CardView
           headline={'For Kurdistan'}
           body={'Sample Empty Document'}
-          link={'https://firebasestorage.googleapis.com/v0/b/regional-kinetics.appspot.com/o/Recommendations%2FSample.pdf?alt=media&token=737bd627-ef86-4ad0-8fb8-0412fd62049b'}
+          link={'https://firebasestorage.googleapis.com/v0/b/regional-kinetics-dd.appspot.com/o/Recommendations%2FSample.pdf?alt=media&token=479b762b-0985-48ab-b4df-0c5fedec6765'}
         />
       </ul>
     );
@@ -108,7 +108,7 @@ const Country = (props) => {
         <CardView
           headline={'For European Union'}
           body={'Sample Empty Document'}
-          link={'https://firebasestorage.googleapis.com/v0/b/regional-kinetics.appspot.com/o/Recommendations%2FSample.pdf?alt=media&token=737bd627-ef86-4ad0-8fb8-0412fd62049b'}
+          link={'https://firebasestorage.googleapis.com/v0/b/regional-kinetics-dd.appspot.com/o/Recommendations%2FSample.pdf?alt=media&token=479b762b-0985-48ab-b4df-0c5fedec6765'}
         />
       </ul>
     );
@@ -119,7 +119,7 @@ const Country = (props) => {
         <CardView
           headline={'For Other'}
           body={'Sample Empty Document'}
-          link={'https://firebasestorage.googleapis.com/v0/b/regional-kinetics.appspot.com/o/Recommendations%2FSample.pdf?alt=media&token=737bd627-ef86-4ad0-8fb8-0412fd62049b'}
+          link={'https://firebasestorage.googleapis.com/v0/b/regional-kinetics-dd.appspot.com/o/Recommendations%2FSample.pdf?alt=media&token=479b762b-0985-48ab-b4df-0c5fedec6765'}
         />
       </ul>
     );
