@@ -41,12 +41,11 @@ function Router() {
         </nav>
       </header>
       <Switch>
-        <Route path="/*" exact component={Home} />
-        <Route path="/" exact component={Home} />
+        <Route path="/" component={Home} />
         <Route path="/home" component={Home} />
         <Route path="/contact" component={Contact} />
-        <Route path="/about" exact component={About} />
-        <Route path="/publications" exact component={Publications} />
+        <Route path="/about" component={About} />
+        <Route path="/publications" component={Publications} />
         <Route path="/recommendations/:country" component={Country} />
         <Route path="/simulation" component={Simulation} />
       </Switch>
