@@ -1,9 +1,1 @@
-/    /index.html   200
-/home /index.html/home   200
-/contact /index.html/contact   200
-/about /index.html/about   200
-/publications /index.html/publications   200
-/recommendations/:country /index.html/recommendations/:country   200
-/simulation /index.html/simulation   200
-
 /*    /index.html   200
