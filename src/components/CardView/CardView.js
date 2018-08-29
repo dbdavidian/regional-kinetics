@@ -10,21 +10,22 @@ import './CardView.css';
 
 
 const cardView = (props) => {
-  return (<Card className="flexitem">
-    <CardContent>
-      <Typography gutterBottom variant="headline" component="h2">
-        {props.headline}
-      </Typography>
-      <Typography component="p">
-        {props.body}
-      </Typography>
-    </CardContent>
-    <CardActions>
-      <Button href={props.link} size="medium">
+  return (
+    <Card className="flexitem">
+      <CardContent>
+        <Typography gutterBottom variant="headline" component="h2">
+          {props.headline}
+        </Typography>
+        <Typography component="p">
+          {props.body}
+        </Typography>
+      </CardContent>
+      <CardActions>
+        <Button href={props.link} size="medium">
         View Article
-      </Button>
-    </CardActions>
-  </Card>);
+        </Button>
+      </CardActions>
+    </Card>);
 };
 
 export default cardView;

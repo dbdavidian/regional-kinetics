@@ -1,10 +1,16 @@
 import React from 'react';
 import CardView from '../CardView/CardView';
+import { Helmet } from 'react-helmet';
 import '../CardView/CardView.css';
 import './Simulation.css';
 
 const Simulation = () => (
   <div>
+    <Helmet>
+      <title>Group Decision Simulation</title>
+      <meta name="description" content="Sim"></meta>
+      <link rel="canonical" href="https://www.regionalkinetics.com/simulation" />
+    </Helmet>
     <div className="container">
       <h1>Group Decision Simulation</h1>
       <p>Nash like equilibrium</p>

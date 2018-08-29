@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Menu from '@material-ui/core/Menu';
 import { NavLink } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 import './Recommendations.css';
 
 class Recommendations extends Component {
@@ -21,6 +22,10 @@ class Recommendations extends Component {
 
     return (
       <div>
+        <Helmet>
+          <title>Recommendations</title>
+          <meta name="description" content="Recommendations"></meta>
+        </Helmet>
         <div
           aria-owns={anchorEl ? 'simple-menu' : null}
           aria-haspopup="true"

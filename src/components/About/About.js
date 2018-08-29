@@ -1,9 +1,15 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 
 import './About.css';
 
 const About = () => (
   <div className="container">
+    <Helmet>
+      <title>About</title>
+      <meta name="description" content="about"></meta>
+      <link rel="canonical" href="https://www.regionalkinetics.com/about" />
+    </Helmet>
     <div className="content">
       <h1>About</h1>
       <p className="paragraph">
