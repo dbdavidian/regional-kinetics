@@ -10,8 +10,11 @@ const Country = (props) => {
       <div>
         <Helmet>
           <link rel="canonical" href="https://www.regionalkinetics.com/recommendations/armenia" />
-          <meta name="description" content="Armenia"></meta>
+          <meta name="description" content="Foreign policy recommendations for the Armenian government"></meta>
         </Helmet>
+        <div className="container">
+          <h1>Armenia</h1>
+        </div>
         <ul className="flexcontainer">
           <CardView
             headline={'For Armenia'}
@@ -26,8 +29,11 @@ const Country = (props) => {
       <div>
         <Helmet>
           <link rel="canonical" href="https://www.regionalkinetics.com/recommendations/azerbaijan" />
-          <meta name="description" content="Azerbaijan"></meta>
+          <meta name="description" content="Foreign policy and full Armenian genocide recognition recommendations for the Azerbaijani government"></meta>
         </Helmet>
+        <div className="container">
+          <h1>Azerbaijan</h1>
+        </div>
         <ul className="flexcontainer">
           <CardView
             headline={'For Azerbaijan'}
@@ -43,8 +49,11 @@ const Country = (props) => {
       <div>
         <Helmet>
           <link rel="canonical" href="https://www.regionalkinetics.com/recommendations/georgia" />
-          <meta name="description" content="Georgia"></meta>
+          <meta name="description" content="Foreign policy and full Armenian genocide recognition recommendations for the Georgian government"></meta>
         </Helmet>
+        <div className="container">
+          <h1>Georgia</h1>
+        </div>
         <ul className="flexcontainer">
           <CardView
             headline={'For Georgia'}
@@ -60,8 +69,11 @@ const Country = (props) => {
       <div>
         <Helmet>
           <link rel="canonical" href="https://www.regionalkinetics.com/recommendations/turkey" />
-          <meta name="description" content="Turkey"></meta>
+          <meta name="description" content="Foreign policy and full Armenian genocide recognition recommendations for the Turkish government"></meta>
         </Helmet>
+        <div className="container">
+          <h1>Turkey</h1>
+        </div>
         <ul className="flexcontainer">
           <CardView
             headline={'For Turkey'}
@@ -77,8 +89,11 @@ const Country = (props) => {
       <div>
         <Helmet>
           <link rel="canonical" href="https://www.regionalkinetics.com/recommendations/russia" />
-          <meta name="description" content="Russia"></meta>
+          <meta name="description" content="Foreign policy and full Armenian genocide recognition recommendations for the Russian government"></meta>
         </Helmet>
+        <div className="container">
+          <h1>Russia</h1>
+        </div>
         <ul className="flexcontainer">
           <CardView
             headline={'For Russia'}
@@ -94,8 +109,11 @@ const Country = (props) => {
       <div>
         <Helmet>
           <link rel="canonical" href="https://www.regionalkinetics.com/recommendations/iran" />
-          <meta name="description" content="Iran"></meta>
+          <meta name="description" content="Foreign policy and full Armenian genocide recognition recommendations for the Iranian government"></meta>
         </Helmet>
+        <div className="container">
+          <h1>Iran</h1>
+        </div>
         <ul className="flexcontainer">
           <CardView
             headline={'For Iran'}
@@ -111,8 +129,11 @@ const Country = (props) => {
       <div>
         <Helmet>
           <link rel="canonical" href="https://www.regionalkinetics.com/recommendations/unitedStates" />
-          <meta name="description" content="United States"></meta>
+          <meta name="description" content="Foreign policy and full Armenian genocide recognition recommendations for the United State government"></meta>
         </Helmet>
+        <div className="container">
+          <h1>United States</h1>
+        </div>
         <ul className="flexcontainer">
           <CardView
             headline={'For United States'}
@@ -128,8 +149,11 @@ const Country = (props) => {
       <div>
         <Helmet>
           <link rel="canonical" href="https://www.regionalkinetics.com/recommendations/china" />
-          <meta name="description" content="China"></meta>
+          <meta name="description" content="Foreign policy and full Armenian genocide recognition recommendations for the Chinese government"></meta>
         </Helmet>
+        <div className="container">
+          <h1>China</h1>
+        </div>
         <ul className="flexcontainer">
           <CardView
             headline={'For China'}
@@ -145,8 +169,11 @@ const Country = (props) => {
       <div>
         <Helmet>
           <link rel="canonical" href="https://www.regionalkinetics.com/recommendations/kurdistan" />
-          <meta name="description" content="Kurdistan"></meta>
+          <meta name="description" content="Foreign policy and full Armenian genocide recognition recommendations for the Kurdistani government"></meta>
         </Helmet>
+        <div className="container">
+          <h1>Kurdistan</h1>
+        </div>
         <ul className="flexcontainer">
           <CardView
             headline={'For Kurdistan'}
@@ -162,8 +189,11 @@ const Country = (props) => {
       <div>
         <Helmet>
           <link rel="canonical" href="https://www.regionalkinetics.com/recommendations/europeanUnion" />
-          <meta name="description" content="European Union"></meta>
+          <meta name="description" content="Foreign policy and full Armenian genocide recognition recommendations for the European Union"></meta>
         </Helmet>
+        <div className="container">
+          <h1>European Union</h1>
+        </div>
         <ul className="flexcontainer">
           <CardView
             headline={'For European Union'}
@@ -179,8 +209,11 @@ const Country = (props) => {
       <div>
         <Helmet>
           <link rel="canonical" href="https://www.regionalkinetics.com/recommendations/other" />
-          <meta name="description" content="Other"></meta>
+          <meta name="description" content="Foreign policy and full Armenian genocide recognition recommendations for the Other governments"></meta>
         </Helmet>
+        <div className="container">
+          <h1>Other</h1>
+        </div>
         <ul className="flexcontainer">
           <CardView
             headline={'For Other'}

@@ -7,11 +7,11 @@ const About = () => (
   <div className="container">
     <Helmet>
       <title>About</title>
-      <meta name="description" content="about"></meta>
+      <meta name="description" content="This site provides proposals and tools concerning Armenia, the Southern Caucasus and the greater region, serving policy and decision makers."></meta>
       <link rel="canonical" href="https://www.regionalkinetics.com/about" />
     </Helmet>
     <div className="content">
-      <h1>About</h1>
+      <h1>About</h1>  
       <p className="paragraph">
         This site provides proposals and tools concerning Armenia, the Southern Caucasus and the greater region, serving policy and decision makers.{'\n\n'}
 

@@ -24,7 +24,6 @@ class Recommendations extends Component {
       <div>
         <Helmet>
           <title>Recommendations</title>
-          <meta name="description" content="Recommendations"></meta>
         </Helmet>
         <div
           aria-owns={anchorEl ? 'simple-menu' : null}

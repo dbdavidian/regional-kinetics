@@ -7,9 +7,13 @@ const Publications = () => (
   <div>
     <Helmet>
       <title>Significant Publications</title>
-      <meta name="description" content="publication"></meta>
+      <meta name="description" content="Peer-reviewed articles about diplomatic, political, military, and security issues."></meta>
       <link rel="canonical" href="https://www.regionalkinetics.com/publications" />
     </Helmet>
+    <div className="container">
+      <h1>Significant Publications</h1>
+      <p>Peer-reviewed articles about diplomatic, political, military, and security issues.</p>
+    </div>
     <ul className="flexcontainer">
       <CardView
         headline={'Oligarchies and Strategic Danger to Small State Security'}
