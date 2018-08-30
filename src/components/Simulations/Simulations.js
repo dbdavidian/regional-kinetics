@@ -2,17 +2,17 @@ import React from 'react';
 import CardView from '../CardView/CardView';
 import { Helmet } from 'react-helmet';
 import '../CardView/CardView.css';
-import './Simulation.css';
+import './Simulations.css';
 
-const Simulation = () => (
+const Simulations = () => (
   <div>
     <Helmet>
-      <title>Group Decision Simulation</title>
+      <title>Group Decision Simulations</title>
       <meta name="description" content="Rational, multiplayer, open-position, group decision Nash like equilibrium simulations."></meta>
-      <link rel="canonical" href="https://www.regionalkinetics.com/simulation" />
+      <link rel="canonical" href="https://www.regionalkinetics.com/simulations" />
     </Helmet>
     <div className="container">
-      <h1>Group Decision Simulation</h1>
+      <h1>Group Decision Simulations</h1>
       <p>Rational, multiplayer, open-position, group decision Nash like equilibrium simulations.</p>
     </div>
     <ul className="flexcontainer">
@@ -25,4 +25,4 @@ const Simulation = () => (
   </div>
 );
 
-export default Simulation;
+export default Simulations;

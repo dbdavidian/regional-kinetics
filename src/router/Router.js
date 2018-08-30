@@ -7,7 +7,7 @@ import Contact from '../components/Contact/Contact';
 import Publications from '../components/Publications/Publications';
 import Recommendations from '../components/Recommendations/Recommendations';
 import Country from '../components/Country/Country';
-import Simulation from '../components/Simulation/Simulation';
+import Simulations from '../components/Simulations/Simulations';
 
 import './Router.css';
 
@@ -29,8 +29,8 @@ function Router() {
           <a>
             <Recommendations />
           </a>
-          <NavLink to="/simulation">
-            Group Decision Simulation
+          <NavLink to="/simulations">
+            Group Decision Simulations
           </NavLink>
           <NavLink to="/publications">
             Significant Publications
@@ -47,7 +47,7 @@ function Router() {
         <Route path="/about" component={About} />
         <Route path="/publications" component={Publications} />
         <Route path="/recommendations/:country" component={Country} />
-        <Route path="/simulation" component={Simulation} />
+        <Route path="/simulations" component={Simulations} />
       </Switch>
     </div>
   );

@@ -29,7 +29,7 @@ Then you need to go to the **src/components/Country/Country.js** and add a new s
 
 You can follow the same structure as it is already available.
 
-### Simulation and Publications
+### Simulations and Publications
 
 You don't need to do the steps above for these two routes. You only need to copy the existing ones and modify it accordingly.
 
