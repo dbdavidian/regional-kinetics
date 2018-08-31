@@ -16,7 +16,8 @@ function Router() {
     <div>
       <header>
         <div className="logoHeaderDiv">
-          <img className="logo" src="/logo/logo.png" alt="Logo" />
+          <link rel="preload" href="/logo/logo.png"></link>
+          <img className="logo" src="/logo/logo.png" alt="regionalkinetics" />
           <h1 className="header">Regional Kinetics</h1>
         </div>
         <nav>
