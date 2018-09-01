@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import CardView from '../CardView/CardView';
 import { Helmet } from 'react-helmet';
-import { storage } from '../../firebase';
+//import { storage } from '../../firebase';
 import '../CardView/CardView.css';
 
-const storageRef = storage.ref('/Publications/');
+//const storageRef = storage.ref('/Publications/');
 
 class Publications extends Component {
 
@@ -12,21 +12,21 @@ class Publications extends Component {
     pdfs: []
   }
 
-  filenameHandler = (index, filename) => {
+  /* filenameHandler = (index, filename) => {
     storageRef.child(filename).getDownloadURL().then((url) => {
       let newState = Object.assign({}, this.state.pdfs);
       newState[index] = url;
       this.setState({pdfs: newState});
       return url;
     });
-  };
+  }; */
 
   render() {
-    this.filenameHandler(0, 'Oligarchies-and-Strategic-Danger-to-Small-State-Security.pdf');
-    this.filenameHandler(1, 'Returns-on-Diplomatic-Investment-Zionist-Policies-and-the-Armenians.pdf');
-    this.filenameHandler(2, 'The-Challenge-of-the-Indigenous-Arms-Industry.pdf');
-    this.filenameHandler(3, 'The-Programmable-Diplomatic-Kill-Switch.pdf');
-    this.filenameHandler(4, 'Why-Azerbaijan-is-unable-to-offer-viable-solutions-to-the-Nagorno-Karabakh-Conflict.pdf');
+    // this.filenameHandler(0, 'Oligarchies-and-Strategic-Danger-to-Small-State-Security.pdf');
+    // this.filenameHandler(1, 'Returns-on-Diplomatic-Investment-Zionist-Policies-and-the-Armenians.pdf');
+    // this.filenameHandler(2, 'The-Challenge-of-the-Indigenous-Arms-Industry.pdf');
+    // this.filenameHandler(3, 'The-Programmable-Diplomatic-Kill-Switch.pdf');
+    // this.filenameHandler(4, 'Why-Azerbaijan-is-unable-to-offer-viable-solutions-to-the-Nagorno-Karabakh-Conflict.pdf');
 
     return (
       <div>
