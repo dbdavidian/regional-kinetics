@@ -123,6 +123,27 @@ const Country = (props) => {
         </ul>
       </div>
     );
+      
+  case 'israel':
+    return (
+      <div>
+        <Helmet>
+          <link rel="canonical" href="https://www.regionalkinetics.com/recommendations/israel" />
+          <meta name="description" content="Foreign policy and full Armenian genocide recognition recommendations for the Israeli government"></meta>
+        </Helmet>
+        <div className="container">
+          <h1>Israel</h1>
+        </div>
+        <ul className="flexcontainer">
+          <CardView
+            headline={'For Israel'}
+            body={'Sample Empty Document'}
+            link={'https://firebasestorage.googleapis.com/v0/b/regional-kinetics-dd.appspot.com/o/Recommendations%2FSample.pdf?alt=media&token=479b762b-0985-48ab-b4df-0c5fedec6765'}
+          />
+        </ul>
+      </div>
+    );
+
 
   case 'unitedStates':
     return (
