@@ -157,9 +157,9 @@ const Country = (props) => {
         </div>
         <ul className="flexcontainer">
           <CardView
-            headline={'For United States'}
-            body={'Sample Empty Document'}
-            link={'https://firebasestorage.googleapis.com/v0/b/regional-kinetics-dd.appspot.com/o/Recommendations%2FSample.pdf?alt=media&token=479b762b-0985-48ab-b4df-0c5fedec6765'}
+            headline={'Full Recognition of the Armenian Genocide is in the National Interest of the United States'}
+            body={'Full United States recognition of the Armenian genocide and support for reparations forms the cornerstone of an Armenia allied with United States interests'}
+            link={'https://firebasestorage.googleapis.com/v0/b/regional-kinetics-dd.appspot.com/o/Recommendations%2FUnited%20States%2FPosition-Paper-US-Recognition-of-Armenian-Genocide-9-18.pdf?alt=media&token=a65cdf59-2556-4627-9dbb-4a7e4e256056'}
           />
         </ul>
       </div>
