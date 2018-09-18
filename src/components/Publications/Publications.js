@@ -41,6 +41,11 @@ class Publications extends Component {
         </div>
         <ul className="flexcontainer">
           <CardView
+            headline={'The Curious Treaty of Kars'}
+            body={'Sample Summary'}
+            link={'https://firebasestorage.googleapis.com/v0/b/regional-kinetics-dd.appspot.com/o/Publications%2FThe-Curious-Treaty-of-Kars.pdf?alt=media&token=7dd77a36-df04-40e9-9260-45faab5f53b6'}
+          />
+          <CardView
             headline={'Oligarchies and Strategic Danger to Small State Security'}
             body={'Sample Summary'}
             link={'https://firebasestorage.googleapis.com/v0/b/regional-kinetics-dd.appspot.com/o/Publications%2FOligarchies-and-Strategic-Danger-to-Small-State-Security.pdf?alt=media&token=e39ac68d-daed-46f0-a910-ac95db574924'}
