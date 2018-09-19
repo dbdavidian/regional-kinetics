@@ -48,7 +48,7 @@ class Recommendations extends Component {
             <NavLink onClick={this.handleClose} to="/recommendations/russia">Russia</NavLink>
             <NavLink onClick={this.handleClose} to="/recommendations/iran">Iran</NavLink>
             <NavLink onClick={this.handleClose} to="/recommendations/israel">Israel</NavLink>
-            <NavLink onClick={this.handleClose} to="/recommendations/unitedStates">United State</NavLink>
+            <NavLink onClick={this.handleClose} to="/recommendations/unitedStates">United States</NavLink>
             <NavLink onClick={this.handleClose} to="/recommendations/china">China</NavLink>
             <NavLink onClick={this.handleClose} to="/recommendations/kurdistan">Kurdistan</NavLink>
             <NavLink onClick={this.handleClose} to="/recommendations/europeanUnion">European Union</NavLink>
