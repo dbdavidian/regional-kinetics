@@ -118,7 +118,7 @@ const Country = (props) => {
           <CardView
             headline={'Full Recognition of the Armenian Genocide is in the National Interest of the Islamic Republic of Iran'}
             body={'Policy Brief'}
-            link={'https://firebasestorage.googleapis.com/v0/b/regional-kinetics-dd.appspot.com/o/Recommendations%2FIran%2FPosition_Paper--Iranian_Recognition_of_the_Armenian_Genocide_12-2018%2Cpdf?alt=media&token=2a846515-fb90-4372-ab11-b3dfa0540676'}
+            link={'https://firebasestorage.googleapis.com/v0/b/regional-kinetics-dd.appspot.com/o/Recommendations%2FIran%2FPosition_Paper--Iranian_Recognition_of_the_Armenian_Genocide_12-2018.pdf?alt=media&token=f838c3c4-a922-4188-9af2-cb18c1a86f13'}
           />
         </ul>
       </div>
