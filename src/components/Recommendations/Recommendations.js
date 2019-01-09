@@ -43,7 +43,7 @@ class Recommendations extends Component {
           <div className="listItems">
             <NavLink onClick={this.handleClose} to="/recommendations/armenia">Armenia</NavLink>
             <NavLink onClick={this.handleClose} to="/recommendations/azerbaijan">Azerbaijan</NavLink>
-            <NavLink onClick={this.handleClose} to="/recommendations/georgia">Gerogia</NavLink>
+            <NavLink onClick={this.handleClose} to="/recommendations/georgia">Georgia</NavLink>
             <NavLink onClick={this.handleClose} to="/recommendations/turkey">Turkey</NavLink>
             <NavLink onClick={this.handleClose} to="/recommendations/russia">Russia</NavLink>
             <NavLink onClick={this.handleClose} to="/recommendations/iran">Iran</NavLink>
