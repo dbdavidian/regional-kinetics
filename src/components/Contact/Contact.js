@@ -12,7 +12,7 @@ const Contact = () => (
     </Helmet>
     <h1>Contact</h1>
     <p>Email: info@regionalkinetics.org</p>
-    <a href="mailto:info@regionalkinetics.org" target="_top">Send Mail</a>
+    <a href="mailto:regionalkinetics@gmail.com" target="_top">Send Mail</a>
   </div>
 );
 
