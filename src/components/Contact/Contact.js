@@ -11,7 +11,7 @@ const Contact = () => (
       <link rel="canonical" href="https://www.regionalkinetics.com/contact" />
     </Helmet>
     <h1>Contact</h1>
-    <p>Email: info@regionalkinetics.org</p>
+    <p>Email: regionalkinetics@gmail.com</p>
     <a href="mailto:regionalkinetics@gmail.com" target="_top">Send Mail</a>
   </div>
 );
