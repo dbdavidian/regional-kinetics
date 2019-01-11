@@ -98,7 +98,7 @@ const Country = (props) => {
           <CardView
             headline={'For Russia'}
             body={'Sample Empty Document'}
-            link={'https://firebasestorage.googleapis.com/v0/b/regional-kinetics-dd.appspot.com/o/Recommendations%2FSample.pdf?alt=media&token=479b762b-0985-48ab-b4df-0c5fedec6765'}
+            link={'https://firebasestorage.googleapis.com/v0/b/regional-kinetics-dd.appspot.com/o/Recommendations%2FRussia%2FPosition_Paper--Russian_Recognition_of_the_Armenian_Genocide_01-2019.pdf?alt=media&token=b7f2008a-4654-4a4d-a8c7-d077c0f597e8'}
           />
         </ul>
       </div>
