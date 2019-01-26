@@ -217,7 +217,7 @@ const Country = (props) => {
         </div>
         <ul className="flexcontainer">
           <CardView
-            headline={'Full Recognition of the Armenian Genocide is in the Unified Interest of the European Union'}
+            headline={'Full Recognition of the Armenian Genocide is in the Collective Interest of the European Union'}
             body={'Policy Brief'}
             link={'https://firebasestorage.googleapis.com/v0/b/regional-kinetics-dd.appspot.com/o/Recommendations%2FEU%2FPosition_Paper--European_Union_Recognition_of_the_Armenian_Genocide_01-2019.pdf?alt=media&token=6fef5902-9398-46b4-bbff-927b6d07226e'}
           />
