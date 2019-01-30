@@ -73,6 +73,13 @@ class Publications extends Component {
             headline={'Why Azerbaijan is unable to offer viable solutions to the Nagorno-Karabakh Conflict'}
             body={'Azerbaijan has cornered itself with the inability to offer peaceful solutions to the Nagorno-Karabakh (NK) conflict'}
             link={'https://firebasestorage.googleapis.com/v0/b/regional-kinetics-dd.appspot.com/o/Publications%2FWhy-Azerbaijan-is-unable-to-offer-viable-solutions-to-the-Nagorno-Karabakh-Conflict.pdf?alt=media&token=4fc2f218-847a-4e4e-836d-d33fec36193f'}
+      
+           />
+      
+          <CardView
+            headline={'The Israeli Knesset, the Yezidi Genocide, and Machiavelli'}
+            body={'On November 21, 2018, the Israeli Knesset voted down, 59 to 38, a bill that would recognize the 2014 ISIS-targeted annihilation of the Yezidis in Northern Iraq as genocid'}
+            link={'https://firebasestorage.googleapis.com/v0/b/regional-kinetics-dd.appspot.com/o/Publications%2FThe-Israeli-Knesset%2C-the-Yezidi-Genocide%2C-and-Machiavelli.pdf?alt=media&token=6c0f8855-1e03-436f-9d4b-6ceb9f0b1317'}
           />
         </ul>
       </div>
