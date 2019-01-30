@@ -41,8 +41,6 @@ class Recommendations extends Component {
           onClose={this.handleClose}
         >
           <div className="listItems">
-            // <NavLink onClick={this.handleClose} to="/recommendations/armenia">Armenia</NavLink>
-            // <NavLink onClick={this.handleClose} to="/recommendations/azerbaijan">Azerbaijan</NavLink>
             <NavLink onClick={this.handleClose} to="/recommendations/georgia">Georgia</NavLink>
             <NavLink onClick={this.handleClose} to="/recommendations/turkey">Turkey</NavLink>
             <NavLink onClick={this.handleClose} to="/recommendations/russia">Russia</NavLink>
@@ -52,8 +50,7 @@ class Recommendations extends Component {
             <NavLink onClick={this.handleClose} to="/recommendations/china">China</NavLink>
             <NavLink onClick={this.handleClose} to="/recommendations/kurdistan">Kurdistan</NavLink>
             <NavLink onClick={this.handleClose} to="/recommendations/europeanUnion">European Union</NavLink>
-            // <NavLink onClick={this.handleClose} to="/recommendations/other">Other</NavLink>
-
+            
             {/* In order to add new country in dropdown add it here.*/}
           </div>
         </Menu>
