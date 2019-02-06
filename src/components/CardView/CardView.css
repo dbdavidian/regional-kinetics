@@ -9,6 +9,7 @@
   display: -webkit-flex;
   display: flex;
   
+  flex-flow: row wrap;
   -webkit-flex-flow: row wrap;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -17,7 +18,7 @@
 .flexitem {
   padding: 5px;
   width: 490px;
-  height: 210px;
+  height: 230px;
   max-width: 500px;
   max-height: 220px;
   margin-top: 20px;
