@@ -9,3 +9,21 @@
   align-items: center;
   margin: 4%;
 }
+
+#mc_embed_signup {
+  padding-top: 5%;
+  width: 50vw;
+  min-width: 30vw;
+  max-width: 80vw;
+  clear: left;
+  font: 14px Helvetica, Arial, sans-serif;
+}
+
+#mce-EMAIL {
+  min-width: 50vw;
+}
+
+#mc_embed_signup h2 {
+  display: inline;
+  text-align: center;
+}
