@@ -1,7 +1,9 @@
-import React from 'react';
-import { Helmet } from 'react-helmet';
+import React from "react";
+import { Helmet } from "react-helmet";
 
-import './Contact.css';
+import "./Contact.css";
+import facebookLogo from "./facebook.png";
+import twitterLogo from "./twitter.png";
 
 const Contact = () => (
   <div className="container">
@@ -69,6 +71,14 @@ const Contact = () => (
           </div>
         </div>
       </form>
+    </div>
+    <div class='icon-container'>
+      <a href="https://www.facebook.com/regionalkinetics/" target="_blank" rel="noopener noreferrer">
+        <img class="icon" src={facebookLogo} alt="facebook logo" />
+      </a>
+      <a href="https://twitter.com/R_Kinetics" target="_blank" rel="noopener noreferrer">
+        <img class="icon" src={twitterLogo} alt="twitter logo" />
+      </a>
     </div>
   </div>
 );
