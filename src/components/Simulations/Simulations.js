@@ -13,7 +13,7 @@ const Simulations = () => (
     </Helmet>
     <div className="container">
       <h1>Group Decision Simulations</h1>
-      <p>Rational, multiplayer, open-position, group decision equilibrium simulations.</p>
+      <p>Rational, multiplayer, open-position, group decision simulations.</p>
     </div>
     <ul className="flexcontainer">
       <CardView
