@@ -8,12 +8,12 @@ const Simulations = () => (
   <div>
     <Helmet>
       <title>Group Decision Simulations</title>
-      <meta name="description" content="Rational, multiplayer, open-position, group decision Nash like equilibrium simulations."></meta>
+      <meta name="description" content="Rational, multiplayer, open-position, group decision equilibrium simulations."></meta>
       <link rel="canonical" href="https://www.regionalkinetics.com/simulations" />
     </Helmet>
     <div className="container">
       <h1>Group Decision Simulations</h1>
-      <p>Rational, multiplayer, open-position, group decision Nash-like equilibrium simulations.</p>
+      <p>Rational, multiplayer, open-position, group decision equilibrium simulations.</p>
     </div>
     <ul className="flexcontainer">
       <CardView
