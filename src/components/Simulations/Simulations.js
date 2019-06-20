@@ -17,9 +17,9 @@ const Simulations = () => (
     </div>
     <ul className="flexcontainer">
       <CardView
-        headline={'Sample Empty Document'}
-        body={'Sample Empty Document'}
-        link={'https://firebasestorage.googleapis.com/v0/b/regional-kinetics-dd.appspot.com/o/Sumulations%2FSample.pdf?alt=media&token=feca6ed9-6495-4e68-bcc0-a70a500510e6'}
+        headline={'Negotiation Simulation Rational Decision Model Used by Regional Kinetics'}
+        body={'Methodology Brief'}
+        link={'https://firebasestorage.googleapis.com/v0/b/regional-kinetics-dd.appspot.com/o/Sumulations%2FNegotiation_Simulation_Rational_Decision_Model_Used_by_Regional_Kinetics.pdf?alt=media&token=ad4fe3be-449e-4185-916e-071e556e97ff'}
       />
     </ul>
   </div>
